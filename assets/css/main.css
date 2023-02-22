@@ -29,12 +29,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+a:link {
+	color: black;
+}
 
 body {
 	line-height: 1;
 }
 
 ol, ul {
+	list-style: none;
+}
+
+li {
+	float: left;
+	margin: 0 10px;
 	list-style: none;
 }
 
