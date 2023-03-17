@@ -88,12 +88,12 @@ input, select, textarea {
 	.row {
 		display: flex;
 		flex-wrap: wrap;
-		box-sizing: border-box;
+		box-sizing: content-box;
 		align-items: stretch;
 	}
 
 		.row > * {
-			box-sizing: border-box;
+			box-sizing: content-box;
 		}
 
 		.row.gtr-uniform > * > :last-child {
@@ -331,12 +331,12 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
-				box-sizing: border-box;
+				box-sizing: content-box;
 				align-items: stretch;
 			}
 
 				.row > * {
-					box-sizing: border-box;
+					box-sizing: content-box;
 				}
 
 				.row.gtr-uniform > * > :last-child {
@@ -576,12 +576,12 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
-				box-sizing: border-box;
+				box-sizing: content-box;
 				align-items: stretch;
 			}
 
 				.row > * {
-					box-sizing: border-box;
+					box-sizing: content-box;
 				}
 
 				.row.gtr-uniform > * > :last-child {
@@ -821,12 +821,12 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
-				box-sizing: border-box;
+				box-sizing: content-box;
 				align-items: stretch;
 			}
 
 				.row > * {
-					box-sizing: border-box;
+					box-sizing: content-box;
 				}
 
 				.row.gtr-uniform > * > :last-child {
@@ -1066,12 +1066,12 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
-				box-sizing: border-box;
+				box-sizing: content-box;
 				align-items: stretch;
 			}
 
 				.row > * {
-					box-sizing: border-box;
+					box-sizing: content-box;
 				}
 
 				.row.gtr-uniform > * > :last-child {
