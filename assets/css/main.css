@@ -89,7 +89,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: content-box;
-		align-items: stretch;
+		align-items: flex-start;
 	}
 
 		.row > * {
