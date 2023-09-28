@@ -1558,25 +1558,25 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		display: grid; /*inline-block;*/
+		display: inline-block;
 		object-fit: cover;
 		place-items: center;
 	}
 
 		.image img {
-			display: grid;
+			display: inline-block;
 			width: 100%;
 			place-items: center;
 		}
 
 		.image.fit {
-			display: grid;
+			display: inline-block;
 			width: 100%;
 			place-items: center;
 		}
 
 		.image.featured {
-			display: grid;
+			display: inline-block;
 			width: 100%;
 			margin: 0 0 2em 0;
 			place-items: center;
@@ -1589,7 +1589,7 @@ input, select, textarea {
 		}
 
 		.image.centered {
-			display: grid;;
+			display: inline-block;
 			margin: 0 0 2em 0;
 			place-items: center;
 		}
