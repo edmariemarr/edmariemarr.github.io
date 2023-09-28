@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 		.row > * {
-			box-sizing: border-box;
+			box-sizing: content-box;
 		}
 
 		.row.gtr-uniform > * > :last-child {
