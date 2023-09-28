@@ -25,7 +25,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
+article, aside, .caption, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -70,6 +70,19 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+
+image-grid {
+    	display: grid;
+    	grid-template-rows: 200px 200px 200px;
+    	grid-template-columns: 200px 200px 200px;
+}
+
+imagestuff {
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Row */
