@@ -1560,38 +1560,32 @@ input, select, textarea {
 	.image {
 		display: inline-block;
 		object-fit: cover;
-		place-items: center;
 	}
 
 		.image img {
 			display: inline-block;
 			width: 100%;
-			place-items: center;
 		}
 
 		.image.fit {
 			display: inline-block;
 			width: 100%;
-			place-items: center;
 		}
 
 		.image.featured {
 			display: inline-block;
 			width: 100%;
 			margin: 0 0 2em 0;
-			place-items: center;
 		}
 
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
-			place-items: center;
 		}
 
 		.image.centered {
 			display: inline-block;
 			margin: 0 0 2em 0;
-			place-items: center;
 		}
 
 			.image.centered img {
