@@ -1564,17 +1564,17 @@ input, select, textarea {
 
 		.image img {
 			display: inline-block;
-			width: 100%;
+			width: 50%;
 		}
 
 		.image.fit {
 			display: inline-block;
-			width: 100%;
+			width: 50%;
 		}
 
 		.image.featured {
 			display: inline-block;
-			width: 100%;
+			width: 50%;
 			margin: 0 0 2em 0;
 		}
 
