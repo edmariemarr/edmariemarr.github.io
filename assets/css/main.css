@@ -1558,22 +1558,22 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		display: inline-block;
+		display: grid; /*inline-block;*/
 		object-fit: cover;
 	}
 
 		.image img {
-			display: inline-block;
+			display: grid;
 			width: 100%;
 		}
 
 		.image.fit {
-			display: inline-block;
+			display: grid;
 			width: 100%;
 		}
 
 		.image.featured {
-			display: inline-block;
+			display: grid;
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
@@ -1584,7 +1584,7 @@ input, select, textarea {
 		}
 
 		.image.centered {
-			display: inline-block;
+			display: grid;;
 			margin: 0 0 2em 0;
 		}
 
