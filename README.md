@@ -2,16 +2,14 @@
 
 # Personal Portfolio
 
-Template provided by:
-
-Astral by HTML5 UP
+Strata by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-Further credits:
+AJ
+aj@lkn.io | @ajlkn
 
-	Demo Images:
-		Unsplash (unsplash.com)
+Credits:
 
 	Icons:
 		Font Awesome (fontawesome.io)
