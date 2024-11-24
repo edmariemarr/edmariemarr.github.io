@@ -2946,7 +2946,7 @@ input, select, textarea {
 
 		.poptrox-popup:hover .nav-next,
 		.poptrox-popup:hover .nav-previous {
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 			.poptrox-popup:hover .nav-next:hover,
@@ -2955,7 +2955,7 @@ input, select, textarea {
 			}
 
 		.poptrox-popup:hover .closer {
-			opacity: 0.5;
+			opacity: 1;
 		}
 
 			.poptrox-popup:hover .closer:hover {
@@ -2965,7 +2965,7 @@ input, select, textarea {
 /* Touch */
 
 	body.is-touch .image.thumb:before {
-		opacity: 0.5 !important;
+		opacity: 1 !important;
 	}
 
 	body.is-touch .image.thumb:after {
