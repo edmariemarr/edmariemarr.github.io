@@ -3176,6 +3176,7 @@ input, select, textarea {
 
 			#footer {
 				padding: 2.25em 1.5em;
+				background-color: red;
 			}
 
 		/* Main */
