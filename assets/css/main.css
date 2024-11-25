@@ -3086,7 +3086,6 @@ input, select, textarea {
 				background-attachment: scroll;
 				background-color: #1f1815;
 				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-				background: none;
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3176,7 +3175,6 @@ input, select, textarea {
 
 			#footer {
 				padding: 2.25em 1.5em;
-				background-color: red;
 			}
 
 		/* Main */
