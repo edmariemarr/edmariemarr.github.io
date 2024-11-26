@@ -104,7 +104,7 @@ input, select, textarea {
 		/*color: #a2a2a2;*/
 		color: #000000;
 		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-		font-size: 15px;
+		font-size: 14px;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -2991,7 +2991,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 15px;
+				font-size: 14px;
 			}
 
 	}
