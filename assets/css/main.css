@@ -2612,7 +2612,7 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: left;
+		text-align: right;
 		top: 0;
 		width: 35%;
 	}
