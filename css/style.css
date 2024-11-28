@@ -280,9 +280,10 @@ a:hover, a:active, a:focus {
    About section              
 -----------------------------------------*/
 #about .container {
-  display: flex;  
-  align-items: flex-start; 
-  gap: 10px;
+  display: flex;     
+  justify-content: flex-start;  
+  align-items: flex-start;
+  gap: 20px;
 }
 
 #about .text-center {
@@ -291,10 +292,8 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-8 {
-  /*padding-left: 0px;*/
-  /*padding-right: 10px;*/
-  flex: 0 0 40%;
-  padding-right: 10px;     
+  flex: 0 0 40%; 
+  padding-right: 15px;    
 }
 
 #about .col-md-8 img {
@@ -307,20 +306,25 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-4 {
-  flex: 0 0 60%;  
-  padding-left: 10px;
-  padding-right: 0;  
-  display: flex; 
-  flex-direction: column;
+  flex: 0 0 60%;
+  max-width: 788px;
+  min-width: 466px; 
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+#about .col-md-4 h1,
 #about .col-md-4 p {
   text-align: left !important;  
-  margin: 0;   
-  padding: 0;   
-  width: auto;     
-  line-height: 1.6; 
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  line-height: 1.6;   
   word-wrap: break-word;
+}
+
+#about .col-md-4 h1 {
+  margin-bottom: 15px;
 }
 
 #about hr {
