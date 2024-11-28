@@ -790,7 +790,8 @@ footer .footer-copyright {
   }
 
   #about .col-md-4 h1,
-  #about .col-md-4 p {
+  #about .col-md-4 p,
+  #about .col-md-4 .additional-text {
     font-size: 16px;
     padding-left: 10px;
     padding-right: 10px;
@@ -802,14 +803,6 @@ footer .footer-copyright {
     width: 100%;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  #about .col-md-4 .additional-text {
-    font-size: 16px;
-    padding-left: 10px;
-    padding-right: 10px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
   }
 
   #about hr {
