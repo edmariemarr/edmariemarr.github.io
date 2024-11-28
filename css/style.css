@@ -727,11 +727,6 @@ footer .footer-copyright {
 
 
 @media (max-width: 767px) {
-    body {
-      overflow-x: hidden !important;
-    -webkit-overflow-scrolling: touch;
-  }
-
   .navbar-default .navbar-header {
     width: 100%;
     text-align: center;
@@ -792,6 +787,7 @@ footer .footer-copyright {
     padding-right: 10px;
   }
 
+  /*
   #about .container {
     width: 100%;
     padding: 0 15px;
@@ -874,7 +870,7 @@ footer .footer-copyright {
     font-size: 18px;
     padding-top: 2px;
     padding-bottom: 2px;
-  }
+  }*/
 
   #blog-single-post .blog-post-title h2 {
     font-size: 29px;
