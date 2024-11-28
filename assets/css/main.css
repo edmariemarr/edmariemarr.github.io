@@ -2583,7 +2583,7 @@ input, select, textarea {
 
 /* Header */
 	#header-image {
-    	position: fixed; 
+    	position: absolute; 
     	top: 50%; 
     	left: 50%; 
     	transform: translate(-50%, -50%); 
@@ -2626,7 +2626,8 @@ input, select, textarea {
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
-		position: fixed;
+		/*position: fixed;*/
+		position: relative;
 		text-align: left;
 		top: 0;
 		width: 35%;
