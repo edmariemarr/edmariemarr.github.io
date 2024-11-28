@@ -771,42 +771,44 @@ footer .footer-copyright {
     padding-right: 10px;
   }
 
-  #about {
-    width: 100%; 
-    box-sizing: border-box;
-    overflow-x: hidden;
-    padding: 0 15px; 
-  }
-
   #about .container {
-    display: block;
     width: 100%;
     max-width: 100%;
-    padding: 0 15px;
+    padding: 0 15px; 
+    box-sizing: border-box;
+    display: block; 
+  }
+
+  #about .col-md-8 {
+    width: 100%; 
+    padding: 0; 
     box-sizing: border-box;
   }
 
   #about .col-md-8 img {
     width: 100%; 
     height: auto; 
-    display: block;
-    margin: 0 auto; 
-    object-fit: cover;
+    object-fit: cover; 
+    display: block; 
+    margin: 0 auto;
   }
 
   #about .col-md-4 {
-    width: 100%;
-    padding: 0 15px; 
+    width: 100%; 
+    padding: 15px 0; 
     box-sizing: border-box;
+    text-align: left; 
+    margin-top: 15px; 
   }
 
   #about .col-md-4 h1,
   #about .col-md-4 p {
     font-size: 16px; 
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0;
+    padding: 0;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    line-height: 1.6;
   }
 
   #about .col-md-4 .additional-text {
@@ -815,6 +817,7 @@ footer .footer-copyright {
     padding-right: 15px;
   }
 
+
   #about hr {
     width: 50px;
     margin: 10px auto;
@@ -822,17 +825,14 @@ footer .footer-copyright {
 
   #about ul {
     padding-left: 22px;
-    text-align: left;
     font-size: 18px;
   }
 
   #about ul li {
     color: #777;
     font-size: 18px;
-    font-weight: 400;
     padding-top: 2px;
     padding-bottom: 2px;
-  }
  
   #blog-single-post .blog-post-title h2 {
     font-size: 29px;
