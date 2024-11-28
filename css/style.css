@@ -815,6 +815,7 @@ footer .footer-copyright {
   #about hr {
     width: 50px;
     margin: 10px auto;
+    align-items: center;
   }
 
   .navbar-default .navbar-nav li a {
