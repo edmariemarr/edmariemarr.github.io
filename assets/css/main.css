@@ -3223,11 +3223,20 @@ input, select, textarea {
 
 			#header {
 				padding: 2.25em 1.5em;
+				width: 100%;
 			}
 
 				#header h1 {
 					font-size: 1.35em;
 				}
+		
+		/* Avatar Image */
+		.image.avatar {
+		width: 80%;       
+		max-width: 150px;  
+		height: auto;      
+		margin: 0 0 1em 0; 
+	}
 
 		/* Footer */
 
@@ -3267,11 +3276,21 @@ input, select, textarea {
 
 			#header {
 				padding: 4.5em 1.5em;
+				width: 100%;
+				text-align: center; 
 			}
 
 				#header h1 br {
 					display: none;
 				}
+		
+		/* Avatar Image */
+		.image.avatar {
+		width: 70%;         /* Smaller avatar for very small screens */
+		max-width: 120px;   /* Limit size on small screens */
+		height: auto;       /* Maintain aspect ratio */
+		margin: 0 0 1em 0;  /* Space below the avatar */
+		}
 
 		/* Footer */
 
