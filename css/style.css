@@ -286,7 +286,8 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-8 {
-  padding-left: 0px;
+  /*padding-left: 0px;*/
+  padding-right: 10px;
   text-align: left;
 }
 
@@ -296,14 +297,21 @@ a:hover, a:active, a:focus {
   width: 500px
 }
 
+#about .col-md-4 {
+padding-left: 10px;   /* Reduce the left padding to allow the text to come closer to the image */
+  width: auto;          /* Allow the text container to expand and fill available space */
+  display: inline-block;/* Ensure text and image align horizontally */
+  vertical-align: top;
+}
+
 #about .col-md-4 p {
   text-align: left !important;
-  padding-left: 20px;  
-  padding-right: 20px;     
-  margin-left: 0;      
-  margin-right: 0;      
-  line-height: 1.6;            
-  width: 100%;
+  padding-left: 0;      /* Remove any unnecessary padding on the left of the paragraph */
+  padding-right: 0;     /* Remove any padding on the right */
+  margin-left: 0;       /* Remove any margin on the left */
+  margin-right: 0;      /* Remove any margin on the right */
+  width: 100%;          /* Make the paragraph use full width available */
+  line-height: 1.6; 
 }
 
 #about hr {
