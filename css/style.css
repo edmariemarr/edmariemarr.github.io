@@ -75,8 +75,9 @@ a {
   text-decoration: underline;
 }
 a:hover, a:active, a:focus {
-  color: #A64D79;
+  color: gray;
   outline: none;
+  text-decoration: underline;
 }
 
 * {
