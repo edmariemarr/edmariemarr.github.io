@@ -51,6 +51,7 @@ p {
 
 strong {
   font-weight: 400;
+  text-align: left !important;
 }
 
 .btn-success:focus {
@@ -102,6 +103,7 @@ a:hover, a:active, a:focus {
 #blog-single-post {
   padding-top: 80px;
   padding-bottom: 120px;
+  text-align: left !important;
 }
 
 .section-title {
