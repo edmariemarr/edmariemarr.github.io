@@ -364,11 +364,12 @@ a:hover, a:active, a:focus {
   text-align: left !important;
   line-height: 1.6;
   word-wrap: break-word;
+  font-size: 18px;
 }
 
 #about ul li {
   color: #777;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   padding-top: 2px;
   padding-bottom: 2px;
