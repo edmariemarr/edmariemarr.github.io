@@ -280,9 +280,10 @@ a:hover, a:active, a:focus {
    About section              
 -----------------------------------------*/
 #about .container {
-  display: flex;     
-  justify-content: flex-start;  
-  align-items: flex-start;
+  display: flex;  
+  justify-content: flex-start;
+  align-items: flex-start; 
+  gap: 30px;
 }
 
 #about .text-center {
@@ -293,8 +294,8 @@ a:hover, a:active, a:focus {
 #about .col-md-8 {
   /*padding-left: 0px;*/
   /*padding-right: 10px;*/
-  flex: 0 0 60%;  
-  padding-right: 20px;       
+  flex: 0 0 35%;
+  padding-right: 20px;      
 }
 
 #about .col-md-8 img {
@@ -306,17 +307,18 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-4 {
-  flex: 0 0 40%; 
-  padding-left: 0;        
+  flex: 0 0 60%;
+  padding-left: 20px;
   padding-right: 0; 
 }
 
 #about .col-md-4 p {
-  text-align: left;   
-  margin: 0;    
-  padding: 0; 
-  width: 100%;  
-  line-height: 1.6;
+  text-align: left !important; 
+  margin: 0;           
+  padding: 0;
+  width: 100%;   
+  line-height: 1.6; 
+  word-wrap: break-word;
 }
 
 #about hr {
