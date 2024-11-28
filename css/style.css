@@ -281,7 +281,6 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 #about .container {
   display: flex;  
-  justify-content: flex-start;
   align-items: flex-start; 
   gap: 30px;
 }
@@ -294,8 +293,8 @@ a:hover, a:active, a:focus {
 #about .col-md-8 {
   /*padding-left: 0px;*/
   /*padding-right: 10px;*/
-  flex: 0 0 35%;
-  padding-right: 20px;      
+  flex: 0 0 40%;
+  padding-right: 20px;     
 }
 
 #about .col-md-8 img {
@@ -303,20 +302,23 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;*/
   width: 350px;
   height: 500px;
+  display: block;
   /*height: auto;*/ 
 }
 
 #about .col-md-4 {
-  flex: 0 0 60%;
+  flex: 0 0 60%;  
   padding-left: 20px;
-  padding-right: 0; 
+  padding-right: 0;  
+  display: flex; 
+  flex-direction: column;
 }
 
 #about .col-md-4 p {
-  text-align: left !important; 
-  margin: 0;           
-  padding: 0;
-  width: 100%;   
+  text-align: left !important;  
+  margin: 0;   
+  padding: 0;   
+  width: auto;     
   line-height: 1.6; 
   word-wrap: break-word;
 }
