@@ -343,11 +343,12 @@ a:hover, a:active, a:focus {
 
 #about .col-md-4 b, 
 #about .col-md-4 strong {
-  font-size: 20px;
+  font-size: 20px !important;
+  line-height: 1.6;
 }
 
 #about .col-md-4 i {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 #about .col-md-4 h1 {
