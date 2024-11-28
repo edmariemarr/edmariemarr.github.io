@@ -375,7 +375,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #single-project {
-  text-align: center;
+  text-align: left;
 }
 
 #single-project .col-md-12,
