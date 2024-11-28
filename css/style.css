@@ -764,9 +764,11 @@ footer .footer-copyright {
   }
 
   #about .container {
-    width: 100%; 
-    overflow: hidden; 
-    padding: 0 15px; 
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 15px;
+    box-sizing: border-box;
   }
 
   #about .col-md-8 img {
@@ -774,8 +776,7 @@ footer .footer-copyright {
     height: auto;
   }
 
-  #about .col-md-8,
-  #about .col-md-4 {
+  #about .col-md-8, #about .col-md-4 {
     width: 100%;
     padding: 0; 
     box-sizing: border-box;
@@ -836,6 +837,6 @@ footer .footer-copyright {
     text-align: center;
   }
 
-
+}
 
 
