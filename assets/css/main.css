@@ -2609,7 +2609,8 @@ input, select, textarea {
 		/*background-color: #1f1815;*/
 		background-attachment: scroll,								scroll;
 		/*background-image: url("images/overlay.png"), url("../../images/bg.jpg");*/
-		background-color: #0f0f0f;
+		/*background-color: #0f0f0f;*/
+		background-color: #ffffff;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2660,7 +2661,7 @@ input, select, textarea {
 			left: 0;
 			margin: 0;
 			padding: 1em; 
-			color: #ffffff; 
+			color: black; 
 			font-size: 1.35em;
 			line-height: 1.75em;
 			text-align: left; 
