@@ -2661,7 +2661,7 @@ input, select, textarea {
 			left: 0;
 			margin: 0;
 			padding: 1em; 
-			color: black; 
+			color: black !important; 
 			font-size: 1.35em;
 			line-height: 1.75em;
 			text-align: left; 
