@@ -109,7 +109,7 @@ a:hover, a:active, a:focus {
 .section-title {
   position: relative;
   padding-bottom: 62px;
-  text-align: center;
+  text-align: left;
 }
 
 .section-title h3 {
