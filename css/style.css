@@ -774,33 +774,39 @@ footer .footer-copyright {
   #about {
     width: 100%; 
     box-sizing: border-box;
-    overflow-x: hidden; 
-    padding: 0 15px;
+    overflow-x: hidden;
+    padding: 0 15px; 
   }
 
   #about .container {
+    display: block;
     width: 100%;
-    max-width: 100%; 
-    overflow: hidden; 
+    max-width: 100%;
     padding: 0 15px;
     box-sizing: border-box;
   }
 
   #about .col-md-8 img {
-    max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 100%; 
+    height: auto; 
     display: block;
     margin: 0 auto; 
+    object-fit: cover;
+  }
+
+  #about .col-md-4 {
+    width: 100%;
+    padding: 0 15px; 
+    box-sizing: border-box;
   }
 
   #about .col-md-4 h1,
   #about .col-md-4 p {
-    font-size: 16px;
+    font-size: 16px; 
     padding-left: 10px;
     padding-right: 10px;
     word-wrap: break-word;
-    overflow-wrap: break-word; 
+    overflow-wrap: break-word;
   }
 
   #about .col-md-4 .additional-text {
@@ -814,6 +820,20 @@ footer .footer-copyright {
     margin: 10px auto;
   }
 
+  #about ul {
+    padding-left: 22px;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  #about ul li {
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+ 
   #blog-single-post .blog-post-title h2 {
     font-size: 29px;
     line-height: 40px;
