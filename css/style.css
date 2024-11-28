@@ -300,7 +300,8 @@ a:hover, a:active, a:focus {
 #about .col-md-8 img {
   /*padding-right: 22px;
   padding-bottom: 22px;*/
-  width: 500px;
+  width: 350px;
+  height: 500px;
   /*height: auto;*/ 
 }
 
