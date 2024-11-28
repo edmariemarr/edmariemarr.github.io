@@ -307,12 +307,13 @@ a:hover, a:active, a:focus {
 
 #about .col-md-4 {
   flex-grow: 1; 
-  max-width: 788px;  
-  padding-left: 20px;   
-  display: flex;     
+  padding-left: 20px;  
+  display: flex; 
   flex-direction: column; 
-  justify-content: flex-start; 
-  height: auto;
+  justify-content: flex-start;
+  height: auto; 
+  max-width: 788px;
+  min-width: 466px; 
 }
 
 #about .col-md-4 h1,
