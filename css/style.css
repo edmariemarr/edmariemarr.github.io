@@ -5,6 +5,7 @@ body {
     font-style: normal;
 		font-weight: 300;
     overflow-x: hidden;
+    text-align: left !important;
 }
 
 
