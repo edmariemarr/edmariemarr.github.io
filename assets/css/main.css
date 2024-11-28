@@ -2583,7 +2583,7 @@ input, select, textarea {
 
 /* Header */
 	#header-image {
-    	margin: 0 0 0 0;
+    	margin: 0 0 2em 0;
     	width: 350px;
 	}
 
