@@ -334,12 +334,12 @@ a:hover, a:active, a:focus {
   width: 100px;
   margin-top: 42px;
   margin-bottom: 42px;
-  text-align: left;
+  text-align: left !important;
 }
 
 #about ul {
   padding-left: 22px;
-  text-align: left;
+  text-align: left !important;;
 }
 
 #about ul li {
