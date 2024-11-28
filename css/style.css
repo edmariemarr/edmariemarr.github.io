@@ -792,6 +792,8 @@ footer .footer-copyright {
     padding-left: 0px;
     padding-right: 0px; 
     margin-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
   #about .col-md-8 {
@@ -819,14 +821,13 @@ footer .footer-copyright {
   #about .col-md-4 p {
     font-size: 16px;
     margin: 0;
-    padding-left: 15px; 
-    padding-right: 15px; 
-    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%; 
+    line-height: 1.6;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    line-height: 1.6;
-    box-sizing: border-box; 
-    max-width: 100%; 
+    box-sizing: border-box;
   }
 
   #about .col-md-4 h1 {
