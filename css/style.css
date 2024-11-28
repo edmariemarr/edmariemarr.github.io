@@ -715,6 +715,30 @@ footer .footer-copyright {
 
 
 @media (max-width: 767px) {
+  .navbar-default .navbar-header {
+    justify-content: center; 
+  }
+
+  .navbar-default .navbar-header img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #bdc3c7;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
 
   h1 {
     font-size: 38px;
@@ -774,6 +798,10 @@ footer .footer-copyright {
 
   footer .col-md-4 {
     padding-top: 42px;
+  }
+
+  .social-icon {
+    text-align: center;
   }
 
 }
