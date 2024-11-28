@@ -341,12 +341,12 @@ a:hover, a:active, a:focus {
   font-style: normal; 
 }
 
-#about .col-md-4 p b, 
-#about .col-md-4 p strong {
+#about .col-md-4 b, 
+#about .col-md-4 strong {
   font-size: 20px;
 }
 
-#about .col-md-4 p i {
+#about .col-md-4 i {
   font-size: 18px;
 }
 
