@@ -3224,6 +3224,7 @@ input, select, textarea {
 			#header {
 				padding: 2.25em 1.5em;
 				width: 100%;
+				text-align: center;
 			}
 
 				#header h1 {
@@ -3231,11 +3232,12 @@ input, select, textarea {
 				}
 		
 		/* Avatar Image */
-		.image.avatar {
-		width: 80%;       
-		max-width: 150px;  
-		height: auto;      
-		margin: 0 0 1em 0; 
+				#header .image.avatar {
+				width: 100%;     
+				max-width: 200px; 
+				height: auto;    
+				margin: 0 auto 1em auto; 
+				display: block;  
 	}
 
 		/* Footer */
@@ -3285,12 +3287,12 @@ input, select, textarea {
 				}
 		
 		/* Avatar Image */
-		.image.avatar {
-		width: 70%;         /* Smaller avatar for very small screens */
-		max-width: 120px;   /* Limit size on small screens */
-		height: auto;       /* Maintain aspect ratio */
-		margin: 0 0 1em 0;  /* Space below the avatar */
-		}
+				#header .image.avatar {
+				width: 80%;      
+				max-width: 150px;  
+				height: auto;       
+				margin: 0 auto 1em auto;
+			}
 
 		/* Footer */
 
