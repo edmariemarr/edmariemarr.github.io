@@ -723,10 +723,9 @@ footer .footer-copyright {
   .navbar-default .navbar-header img {
     width: 32px;
     height: 32px;
-    margin: 0;
     position: absolute;
-    top: 10px; 
-    left: 10px;
+    top: 10px;
+    left: 15px;
   }
 
   .navbar-toggle {
@@ -734,7 +733,7 @@ footer .footer-copyright {
     top: 10px;
     right: 15px;
     z-index: 1000;
-    font-size: 24px;
+    font-size: 28px;
     padding: 10px;
   }
 
