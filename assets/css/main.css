@@ -2583,11 +2583,14 @@ input, select, textarea {
 
 /* Header */
 	#header-image {
-    	width: 100px; /* Set width */
+    	position: absolute; /* Positions it absolutely within the header */
+    	top: 50%; /* Vertically center the image */
+    	left: 50%; /* Horizontally center the image */
+    	transform: translate(-50%, -50%); /* Adjust for exact centering */
+    	width: 150px; /* Set desired width */
     	height: auto; /* Maintain aspect ratio */
-    	margin-top: 1em; /* Adjust space from the top of the header */
-    	margin-bottom: 1em; /* Adjust space from other elements */
 	}
+	
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2646,9 +2649,10 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: black;
+			color: black; 
+			text-decoration: none;
 		}
-
+		
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: black;
 		}
