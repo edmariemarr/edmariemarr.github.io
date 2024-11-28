@@ -715,12 +715,12 @@ footer .footer-copyright {
 
 
 @media (max-width: 767px) {
-  body {
-    overflow-x: hidden !important; 
-    -webkit-overflow-scrolling: touch; 
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    body {
+      overflow-x: hidden !important; /* Prevent horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+      width: 100%;
+      margin: 0;
+      padding: 0;
   }
 
   .navbar-default .navbar-header {
@@ -783,11 +783,19 @@ footer .footer-copyright {
     padding-right: 10px;
   }
 
-  #about .container {
+  #about {
     width: 100%;
-    padding: 0 15px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0 15px; 
+  }
+
+  #about .container {
     display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
   }
 
   #about .col-md-8 {
@@ -805,11 +813,11 @@ footer .footer-copyright {
   }
 
   #about .col-md-4 {
-    width: 100%;
+    width: 100%; 
     padding: 0 10px;
     box-sizing: border-box;
-    margin-top: 15px;
     text-align: left;
+    margin-top: 15px;
   }
 
   #about .col-md-4 p {
