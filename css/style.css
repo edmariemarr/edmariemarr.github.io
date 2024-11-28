@@ -50,7 +50,6 @@ p {
 
 strong {
   font-weight: 400;
-  font-size: 15px;
 }
 
 .btn-success:focus {
@@ -335,6 +334,7 @@ a:hover, a:active, a:focus {
   width: 100px;
   margin-top: 42px;
   margin-bottom: 42px;
+  text-align: left;
 }
 
 #about ul {
