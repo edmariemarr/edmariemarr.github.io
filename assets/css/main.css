@@ -2582,7 +2582,12 @@ input, select, textarea {
 		}
 
 /* Header */
-
+	#header-image {
+    	width: 100px; /* Set width */
+    	height: auto; /* Maintain aspect ratio */
+    	margin-top: 1em; /* Adjust space from the top of the header */
+    	margin-bottom: 1em; /* Adjust space from other elements */
+	}
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
