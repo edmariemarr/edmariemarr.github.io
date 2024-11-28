@@ -716,9 +716,6 @@ footer .footer-copyright {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     text-align: center;
   }
@@ -729,10 +726,12 @@ footer .footer-copyright {
     margin: 0 auto;
   }
 
-.navbar-default .navbar-toggle {
-  border: none;
-  padding-top: 10px;
-}
+  .navbar-default .navbar-header .navbar-toggle {
+    position: absolute;
+    right: 15px;
+    top: 18px;  
+    z-index: 9999; 
+  }
 
 .navbar-default .navbar-toggle .icon-bar {
   background: #bdc3c7;
@@ -769,21 +768,22 @@ footer .footer-copyright {
 
   #about .container {
     width: 100%;
+    max-width: 100%;
     padding: 0 15px; 
     box-sizing: border-box;
-    overflow-x: hidden;
+    overflow-x: hidden; 
   }
 
   #about .col-md-8 img {
-    width: auto;
-    max-width: 80%;
-    height: auto; 
+    width: 100%;
+    max-width: 90%;
+    height: auto;
     margin: 0 auto;
   }
 
   #about .col-md-8, #about .col-md-4 {
     width: 100%;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
   }
 
