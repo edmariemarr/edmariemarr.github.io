@@ -2647,11 +2647,28 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header h1 {
+		/*#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+		}*/
+
+		#header h1 {
+			position: absolute;
+			top: 0; 
+			left: 0;
+			margin: 0;
+			padding: 1em; 
+			color: #ffffff; 
+			font-size: 1.35em;
+			line-height: 1.75em;
+			text-align: left; 
+			cursor: pointer; 
+		}
+		
+		#header h1:hover {
+			color: rgba(255, 255, 255, 0.4);
 		}
 
 		#header .image.avatar {
