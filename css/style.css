@@ -717,10 +717,7 @@ footer .footer-copyright {
 @media (max-width: 767px) {
     body {
       overflow-x: hidden !important;
-      -webkit-overflow-scrolling: touch;
-      width: 100%;
-      margin: 0;
-      padding: 0;
+    -webkit-overflow-scrolling: touch;
   }
 
   .navbar-default .navbar-header {
@@ -815,12 +812,13 @@ footer .footer-copyright {
   #about .col-md-4 p {
     font-size: 16px;
     margin: 0;
-    padding: 0 10px; 
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.6;
-    box-sizing: border-box
+    box-sizing: border-box;
   }
 
   #about .col-md-4 h1 {
@@ -832,6 +830,7 @@ footer .footer-copyright {
     font-size: 18px;
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box;
   }
 
 
