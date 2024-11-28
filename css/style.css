@@ -383,6 +383,7 @@ a:hover, a:active, a:focus {
 #single-project .col-md-4 {
   padding-left: 0px;
   padding-bottom: 22px;
+  text-align: left;
 }
 
 #single-project .col-md-12 {
