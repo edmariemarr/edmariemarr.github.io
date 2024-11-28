@@ -280,10 +280,12 @@ a:hover, a:active, a:focus {
 
 #about .text-center {
   padding-bottom: 42px;
+  text-align: left;
 }
 
 #about .col-md-8 {
   padding-left: 0px;
+  text-align: left;
 }
 
 #about .col-md-8 img {
@@ -300,6 +302,7 @@ a:hover, a:active, a:focus {
 
 #about ul {
   padding-left: 22px;
+  text-align: left;
 }
 
 #about ul li {
@@ -308,6 +311,7 @@ a:hover, a:active, a:focus {
   font-weight: 400;
   padding-top: 2px;
   padding-bottom: 2px;
+  text-align: left;
 }
 
 
