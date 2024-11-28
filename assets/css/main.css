@@ -3225,6 +3225,8 @@ input, select, textarea {
 				padding: 2.25em 1.5em;
 				width: 100%;
 				text-align: center;
+				position: relative;
+				box-sizing: border-box;
 			}
 
 				#header h1 {
@@ -3234,10 +3236,10 @@ input, select, textarea {
 		
 		/* Avatar Image */
 		#header .image.avatar {
-			width: 50%;      
-			max-width: 300px;
-			height: auto;     
-			margin: 0 auto 3em auto; 
+			width: 60%;        
+			max-width: 300px;  
+			height: auto;        
+			margin: 0 auto 1em auto;
 			display: block;
 		}
 
@@ -3251,6 +3253,7 @@ input, select, textarea {
 
 			#main {
 				padding: 2.25em 1.5em 0.25em 1.5em;
+				margin-top: 3em;
 			}
 
 				#main > section {
@@ -3281,6 +3284,7 @@ input, select, textarea {
 				padding: 4.5em 1.5em;
 				width: 100%;
 				text-align: center; 
+				position: relative;
 			}
 
 				#header h1 br {
@@ -3290,10 +3294,16 @@ input, select, textarea {
 		/* Avatar Image */
 				#header .image.avatar {
 					width: 60%;       
-					max-width: 250px;   
-					height: auto;       
-					margin: 0 auto 3em auto;
+					max-width: 250px; 
+					height: auto;     
+					margin: 0 auto 1em auto;
 			}
+
+		/* Main */
+		#main {
+			padding: 2.25em 1.5em 0.25em 1.5em;
+			margin-top: 4em;
+		}
 
 		/* Footer */
 
