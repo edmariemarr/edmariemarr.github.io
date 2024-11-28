@@ -724,6 +724,7 @@ footer .footer-copyright {
     width: 32px;
     height: 32px;
     margin: 0 auto;
+    display: block;
   }
 
   .navbar-default .navbar-header .navbar-toggle {
@@ -770,15 +771,16 @@ footer .footer-copyright {
     width: 100%;
     max-width: 100%;
     padding: 0 15px; 
-    box-sizing: border-box;
+    box-sizing: border-box; 
     overflow-x: hidden; 
   }
 
   #about .col-md-8 img {
     width: 100%;
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
     margin: 0 auto;
+    display: block;
   }
 
   #about .col-md-8, #about .col-md-4 {
@@ -789,9 +791,11 @@ footer .footer-copyright {
 
   #about .col-md-4 h1,
   #about .col-md-4 p {
-    font-size: 16px;
+    font-size: 16px; 
     padding-left: 10px;
     padding-right: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   #about .col-md-4 .additional-text {
