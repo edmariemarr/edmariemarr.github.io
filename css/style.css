@@ -766,7 +766,7 @@ footer .footer-copyright {
     text-align: center;
   }
 
-  #about .container {
+  /*#about .container {
     width: 100%;
     max-width: 100%;
     padding: 0 15px;
@@ -808,7 +808,7 @@ footer .footer-copyright {
     width: 50px;
     margin: 10px auto;
     align-items: center;
-  }
+  }*/
 
   .navbar-default .navbar-nav li a {
     padding-left: 10px;
