@@ -296,6 +296,10 @@ a:hover, a:active, a:focus {
   width: 500px
 }
 
+#about .col-md-4 p {
+  text-align: left !important;
+}
+
 #about hr {
   width: 100px;
   margin-top: 42px;
