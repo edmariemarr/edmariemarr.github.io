@@ -739,8 +739,28 @@ footer .footer-copyright {
     text-align: center;
   }
 
+  #about .container {
+    max-width: 100%; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   #about .col-md-8 img {
-    padding-right: 0px;
+    width: 100%;
+    height: auto;
+  }
+
+  #about .col-md-4 {
+    flex-grow: 1;
+    padding-left: 0; /* Remove left padding to avoid extra space */
+    padding-right: 0; /* Remove right padding for a snug fit */
+  }
+
+  #about .col-md-4 h1,
+  #about .col-md-4 p {
+    font-size: 18px; /* Adjust font size to fit better */
+    line-height: 1.4; /* Adjust line height for better readability */
+    word-wrap: break-word; /* Make sure text breaks if it’s too long */
   }
 
   #blog-single-post .blog-post-title h2 {
