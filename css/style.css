@@ -63,6 +63,10 @@ strong {
   text-align: left !important;
 }
 
+a, i, b {
+  font-size: 18px;
+}
+
 .btn-success:focus {
   background-color: #000;
   border-color: transparent;
