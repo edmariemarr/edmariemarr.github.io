@@ -2626,8 +2626,7 @@ input, select, textarea {
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
-		/*position: fixed;*/
-		position: relative;
+		position: fixed;
 		text-align: left;
 		top: 0;
 		width: 35%;
