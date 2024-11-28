@@ -2585,9 +2585,9 @@ input, select, textarea {
 	#header-image {
     	position: fixed; 
     	top: 50%; 
-    	left: 0; 
-    	transform: translateY(-50%); 
-    	width: 250px;
+    	left: 50%; 
+    	transform: translate(-50%, -50%); 
+    	width: 350px;
     	height: auto;
 	}
 
