@@ -788,18 +788,21 @@ footer .footer-copyright {
   }
 
   #about .col-md-4.col-sm-12 {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px; 
-    margin-top: 20px;
+    width: 100%;  
+    padding: 0 15px; 
     box-sizing: border-box;
-    overflow: hidden;
+    margin-top: 15px; 
+    text-align: left;
+    overflow: hidden; 
   }
 
   #about .col-md-8 {
-    width: 100%; 
-    padding: 0; 
+    width: 100%;  
+    padding: 0 15px; 
     box-sizing: border-box;
+    margin-top: 15px; 
+    text-align: left;
+    overflow: hidden; 
   }
 
   #about .col-md-8 img {
@@ -819,16 +822,16 @@ footer .footer-copyright {
     overflow: hidden; 
   }
 
-  #about .col-md-4 h2, 
   #about .col-md-4 p {
-    font-size: 16px; /* Ensure the font is the same size on mobile */
-    margin: 0; /* Remove any default margin */
-    padding: 15px; /* Add padding for spacing */
-    width: 100%; /* Ensure it fills the container */
+    font-size: 16px; 
+    /*margin: 0;*/ 
+    padding: 15px; 
+    /*width: 100%;*/
     line-height: 1.6;
-    word-wrap: break-word; /* Break long words if necessary */
-    box-sizing: border-box; /* Include padding in width calculation */
+    word-wrap: break-word;
+    box-sizing: border-box; 
   }
+
 /*
   #about .col-md-4 p {
     font-size: 16px;
@@ -851,6 +854,8 @@ footer .footer-copyright {
     font-size: 16px;
     padding: 15px;
     box-sizing: border-box;
+    line-height: 1.6;
+    word-wrap: break-word;
   }
 
   #about hr {
