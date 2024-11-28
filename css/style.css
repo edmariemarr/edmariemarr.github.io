@@ -787,6 +787,13 @@ footer .footer-copyright {
     display: block;
   }
 
+  #about .col-md-4.col-sm-12 {
+    width: 100%;
+    padding-left: 0px; 
+    padding-right: 0px; 
+    margin-top: 20px; 
+  }
+
   #about .col-md-8 {
     width: 100%; 
     padding: 0; 
@@ -796,17 +803,17 @@ footer .footer-copyright {
   #about .col-md-8 img {
     width: 100%; 
     height: auto; 
-    object-fit: cover; 
-    display: block; 
+    object-fit: cover;
+    display: block;
     margin: 0 auto;
   }
 
   #about .col-md-4 {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 10px; 
     box-sizing: border-box;
     margin-top: 15px;
-    text-align: left;
+    text-align: left; 
   }
 
   #about .col-md-4 p {
@@ -832,7 +839,6 @@ footer .footer-copyright {
     padding-right: 15px;
     box-sizing: border-box;
   }
-
 
   #about hr {
     width: 50px;
