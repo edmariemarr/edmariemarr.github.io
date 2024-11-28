@@ -736,23 +736,6 @@ footer .footer-copyright {
     z-index: 1000;
   }
 
-  .navbar-collapse {
-    display: flex;
-    justify-content: center;  
-    width: 100%;
-  }
-
-  .navbar-nav {
-    display: flex;
-    justify-content: center; 
-    width: 100%;
-  }
-
-  .navbar-nav li {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
 .navbar-default .navbar-toggle .icon-bar {
   background: #bdc3c7;
   border-color: transparent;
