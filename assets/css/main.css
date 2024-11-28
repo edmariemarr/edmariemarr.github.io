@@ -2583,14 +2583,14 @@ input, select, textarea {
 
 /* Header */
 	#header-image {
-    	position: absolute; /* Positions it absolutely within the header */
-    	top: 50%; /* Vertically center the image */
-    	left: 50%; /* Horizontally center the image */
-    	transform: translate(-50%, -50%); /* Adjust for exact centering */
+    	position: absolute; /* Remove from document flow */
+    	top: 50%; /* Vertically center it */
+    	left: 0; /* Position on the left side */
+    	transform: translateY(-50%); /* Adjust for perfect vertical centering */
     	width: 150px; /* Set desired width */
     	height: auto; /* Maintain aspect ratio */
 	}
-	
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
