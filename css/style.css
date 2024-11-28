@@ -716,11 +716,8 @@ footer .footer-copyright {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-header {
-    display: flex;
-    justify-content: center; 
-    align-items: center;   
-    width: 100%;           
-    position: relative;
+    width: 100%;
+    text-align: center;
   }
 
   .navbar-default .navbar-header img {
