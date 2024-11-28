@@ -280,10 +280,11 @@ a:hover, a:active, a:focus {
    About section              
 -----------------------------------------*/
 #about .container {
-  display: flex; 
-  justify-content: flex-start; 
-  align-items: flex-start; 
-  gap: 20px;
+  display: flex;     
+  flex-wrap: wrap;    
+  justify-content: flex-start;
+  align-items: flex-start;    
+  gap: 20px; 
 }
 
 #about .text-center {
@@ -306,13 +307,13 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-4 {
-  flex: 0 0 60%; 
-  max-width: 788px; 
-  min-width: 466px; 
-  padding-left: 20px; 
-  display: flex; 
-  flex-direction: column;
-  justify-content: flex-start;
+  flex: 0 0 60%;    
+  max-width: 788px;    
+  min-width: 466px;     
+  padding-left: 20px;     
+  display: flex;         
+  flex-direction: column;    
+  justify-content: flex-start; 
   height: auto;
 }
 
