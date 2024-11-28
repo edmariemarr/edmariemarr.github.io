@@ -102,7 +102,7 @@ input, select, textarea {
 		color: #000000;
 		/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 		font-family: 'Messina Sans', sans-serif;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -3022,7 +3022,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14px;
+				font-size: 16px;
 			}
 
 	}
