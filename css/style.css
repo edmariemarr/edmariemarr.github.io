@@ -346,6 +346,10 @@ a:hover, a:active, a:focus {
   font-size: 20px;
 }
 
+#about .col-md-4 p i {
+  font-size: 18px;
+}
+
 #about .col-md-4 h1 {
   margin-bottom: 15px;
 }
