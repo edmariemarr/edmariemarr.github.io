@@ -715,6 +715,11 @@ footer .footer-copyright {
 
 
 @media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .navbar-default .navbar-header {
     width: 100%;
     text-align: center;
@@ -816,7 +821,7 @@ footer .footer-copyright {
   }*/
 
   #about .col-md-4 p {
-    font-size: 16px;
+    font-size: 16px; 
     margin: 0;
     padding: 0 10px;
     width: 100%;
