@@ -780,8 +780,8 @@ footer .footer-copyright {
     padding-right: 0; 
   }
 
-  #about .col-md-4 p {
-    font-size: 16px; 
+  #about .col-md-4 p, .col-md-4 b, .col-md-4 i, .col-md-4 strong{
+    font-size: 12px; 
     line-height: 1.4; 
     word-wrap: break-word;
   }
