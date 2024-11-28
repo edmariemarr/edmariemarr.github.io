@@ -9,7 +9,7 @@ body {
 
 
 /*---------------------------------------
-    Typorgraphy              
+    Typography              
 -----------------------------------------*/
 
 h1,h2,h3,h4,h5,h6 {
@@ -67,14 +67,14 @@ html{
 }
 
 a {
-  color: #4d638c;
+  color: #A64D79;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #4d638c;
+  color: #A64D79;
   outline: none;
 }
 
