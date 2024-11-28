@@ -2583,12 +2583,12 @@ input, select, textarea {
 
 /* Header */
 	#header-image {
-    	position: absolute; /* Remove from document flow */
+    	position: absolute; /* Take the image out of normal document flow */
     	top: 50%; /* Vertically center it */
-    	left: 0; /* Position on the left side */
-    	transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    	left: 0; /* Align to the left side of the header */
+    	transform: translateY(-50%); /* Adjust for perfect centering */
     	width: 150px; /* Set desired width */
-    	height: auto; /* Maintain aspect ratio */
+    	height: auto;
 	}
 
 	#header {
