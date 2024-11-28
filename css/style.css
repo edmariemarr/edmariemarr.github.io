@@ -321,7 +321,7 @@ a:hover, a:active, a:focus {
   display: block;  
 }
 
-#about .col-md-4 {
+#about .col-md-4.col-sm-12 {
   flex-grow: 1; 
   padding-left: 20px;  
   display: flex; 
@@ -332,7 +332,19 @@ a:hover, a:active, a:focus {
   min-width: 466px; 
 }
 
-#about .col-md-4 h1,
+#about .col-md-4.col-sm-12 p {
+  text-align: left !important;  
+  font-size: 18px; 
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  line-height: 1.6;
+  word-wrap: break-word;
+  font-weight: normal;
+  font-style: normal; 
+}
+
+/*#about .col-md-4 h1,
 #about .col-md-4 p
  {
   text-align: left !important;  
@@ -341,7 +353,7 @@ a:hover, a:active, a:focus {
   width: 100%; 
   line-height: 1.6;
   word-wrap: break-word;
-}
+}*/
 
 #about .col-md-4 .additional-text {
   text-align: left;
