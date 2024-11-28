@@ -4,6 +4,7 @@ body {
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
 		font-weight: 300;
+    font-size: 18px;
     overflow-x: hidden;
     text-align: left !important;
 }
@@ -44,6 +45,13 @@ h4 {
 p {
     /*color: #777;*/
     color: black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+ol, ul {
     font-size: 18px;
     font-weight: 300;
     line-height: 26px;
