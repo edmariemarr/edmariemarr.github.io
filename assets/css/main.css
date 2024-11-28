@@ -3229,16 +3229,17 @@ input, select, textarea {
 
 				#header h1 {
 					font-size: 1.35em;
+					margin-bottom: 1em;
 				}
 		
 		/* Avatar Image */
-				#header .image.avatar {
-				width: 100%;     
-				max-width: 200px; 
-				height: auto;    
-				margin: 0 auto 1em auto; 
-				display: block;  
-	}
+		#header .image.avatar {
+			width: 50%;      
+			max-width: 300px;
+			height: auto;     
+			margin: 0 auto 3em auto; 
+			display: block;
+		}
 
 		/* Footer */
 
@@ -3288,10 +3289,10 @@ input, select, textarea {
 		
 		/* Avatar Image */
 				#header .image.avatar {
-				width: 80%;      
-				max-width: 150px;  
-				height: auto;       
-				margin: 0 auto 1em auto;
+					width: 60%;       
+					max-width: 250px;   
+					height: auto;       
+					margin: 0 auto 3em auto;
 			}
 
 		/* Footer */
