@@ -506,6 +506,13 @@ footer .footer-copyright {
     padding: 0 15px;
   }
 
+  .navbar-header .left-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
   .navbar-toggle {
     font-size: 50px;
     padding: 12px;
@@ -515,11 +522,11 @@ footer .footer-copyright {
     z-index: 1000;
   }
 
-  .navbar-default .navbar-header img {
-    margin-left: 0; /* Remove right margin */
-    margin-right: auto; /* Push the favicon to the left */
-    width: 50px;  /* Maintain the size of the favicon */
-    height: 50px; /* Maintain the size of the favicon */
+  .navbar-header .left-container img {
+    margin-left: 0;
+    margin-right: auto; /* Align favicon to the left */
+    width: 50px;  /* Set size */
+    height: 50px; /* Set size */
   }
  
   /*.navbar-default .navbar-header {
