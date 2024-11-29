@@ -490,21 +490,24 @@ footer .footer-copyright {
 
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; /* This pushes items to opposite ends */
-    align-items: center;  /* Vertically centers the items */
+    justify-content: space-between; 
+    align-items: center;  
     width: 100%;
     padding: 0 15px; 
   }
 
-  /*.navbar-default .navbar-header img {
+  .navbar-header a {
+    display: block; 
     width: 32px;
-    height: 32px;
-  }*/
+    height: 32px; 
+    margin-right: auto;
+  }
+
 
   .navbar-toggle {
-    font-size: 32px; /* Increase the size of the hamburger icon */
-    padding: 12px; /* Increase the padding for a larger clickable area */
-    margin-left: auto; /* Pushes the hamburger to the right */
+    font-size: 32px; 
+    padding: 12px; 
+    margin-left: auto; 
     z-index: 1000;
     position: relative;
   }
@@ -548,7 +551,9 @@ footer .footer-copyright {
   }
 
   .navbar-default {
-    margin-top: 0px;
+    /*margin-top: 0px;*/
+    margin-top: 0;
+    padding: 0;
   }
 
   .navbar-default .navbar-nav li a {
@@ -566,6 +571,11 @@ footer .footer-copyright {
 
   .social-icon {
     text-align: center;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
   }
 }
 
