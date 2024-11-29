@@ -574,31 +574,48 @@ footer .footer-copyright {
     background-color: transparent;
   }
 
+  /* Hide the menu by default on small screens */
   .navbar-default .navbar-collapse {
-    display: flex; /* Ensures flexbox layout */
-    justify-content: center; /* Centers the menu items */
+    display: none; /* Hide the menu */
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center; /* Center items horizontally */
     text-align: center;
-    width: 100%; /* Ensures full width for collapsing */
+    width: 100%; /* Take the full width */
+  }
+
+  /* Show the menu when the toggle button is clicked */
+  .navbar-default .navbar-collapse.collapse {
+    display: flex; /* Show the menu when collapsed class is added */
   }
 
   .navbar-default .navbar-nav {
     display: flex;
-    justify-content: center; /* Center the items in the nav */
-    align-items: center; /* Align the items vertically */
+    flex-direction: column; /* Stack the menu items vertically */
+    justify-content: center; /* Center items horizontally */
     margin-left: 0;
     margin-right: 0;
-    width: 100%; /* Ensures the list takes the full width */
+    width: 100%; /* Ensures full width for nav items */
+    padding: 0; /* Remove any padding that might affect layout */
   }
 
   .navbar-default .navbar-nav li {
-    display: block; /* Make the list items block-level elements to stack */
-    text-align: center;
+    display: block; /* Ensure each item is block-level to stack vertically */
+    width: 100%; /* Make each item take full width of the container */
   }
 
   .navbar-default .navbar-nav li a {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 18px;
+    display: block; /* Ensure anchor tags are block-level to take full width */
+    text-align: center; /* Center the text inside each item */
+  }
+
+  .navbar-toggle.collapsed .icon-bar {
+    background: #020101; 
+    border-color: transparent;
+    height: 2px;
+    width: 50px;
   }
 
   /* Optional: Optional styling for the active state */
@@ -644,6 +661,7 @@ footer .footer-copyright {
     overflow-x: hidden;
   }
 }
+
 
 
 /*@media (max-width: 768px) {
