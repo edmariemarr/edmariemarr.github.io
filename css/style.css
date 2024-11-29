@@ -490,26 +490,22 @@ footer .footer-copyright {
 
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;  
+    justify-content: space-between; /* This pushes items to opposite ends */
+    align-items: center;  /* Vertically centers the items */
     width: 100%;
     padding: 0 15px; 
   }
 
-  .navbar-header a {
-    display: block; 
+  /*.navbar-default .navbar-header img {
     width: 32px;
-    height: 32px; 
-    margin-right: auto;
-  }
-
+    height: 32px;
+  }*/
 
   .navbar-toggle {
     font-size: 32px; 
     padding: 12px; 
     margin-left: auto; 
     z-index: 1000;
-    position: relative;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -551,9 +547,7 @@ footer .footer-copyright {
   }
 
   .navbar-default {
-    /*margin-top: 0px;*/
-    margin-top: 0;
-    padding: 0;
+    margin-top: 0px;
   }
 
   .navbar-default .navbar-nav li a {
@@ -571,11 +565,6 @@ footer .footer-copyright {
 
   .social-icon {
     text-align: center;
-  }
-
-  body, html {
-    margin: 0;
-    padding: 0;
   }
 }
 
