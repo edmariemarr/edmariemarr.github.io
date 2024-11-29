@@ -491,9 +491,9 @@ footer .footer-copyright {
   .navbar-default .navbar-header {
     display: flex;
     justify-content: space-between; 
-    /*align-items: center; */
-    width: 100%; 
-    padding: 0 15px; 
+    width: 100%;
+    padding: 0 15px;
+    align-items: center; 
   }
 
   /*.navbar-default .navbar-header img {
@@ -502,8 +502,9 @@ footer .footer-copyright {
   }*/
 
   .navbar-toggle {
-    font-size: 28px;
-    padding: 10px;
+    font-size: 32px; 
+    padding: 12px; 
+    margin-left: auto; 
     z-index: 1000;
   }
 
