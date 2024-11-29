@@ -498,7 +498,7 @@ footer .footer-copyright {
 
   /* Adjustments for hamburger button */
   .navbar-toggle {
-    font-size: 40px; /* Set the size of the hamburger icon */
+    font-size: 50px; /* Set the size of the hamburger icon */
     padding: 12px;
     margin-left: auto; /* Pushes hamburger to the right */
     margin-right: 20px; /* Increases space between hamburger and favicon */
@@ -508,7 +508,7 @@ footer .footer-copyright {
 
   /* Hamburger icon bars */
   .navbar-default .navbar-toggle .icon-bar {
-    background: #000; /* Set bars color to black */
+    background: #020101; /* Set bars color to black */
     border-color: transparent;
     height: 2px; /* Thinner bars */
     position: absolute; /* Absolute positioning for better alignment */
@@ -519,13 +519,13 @@ footer .footer-copyright {
 
   /* Top bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(1) {
-    top: 4px; /* Align the top bar to the top */
+    top: 0px; /* Align the top bar to the top */
     width: 40px; /* Long top bar */
   }
 
   /* Middle bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    top: 8px; /* Adjust top distance to center it properly */
+    top: 6px; /* Adjust top distance to center it properly */
     width: 20px; /* Shorter middle bar */
   }
 
