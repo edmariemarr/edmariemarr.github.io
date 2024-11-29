@@ -568,17 +568,17 @@ footer .footer-copyright {
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(1) {
     top: 0px;
-    /*width: 40px; */
+    width: 40px; 
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
     top: 7px; 
-    /*width: 40px;*/
+    width: 40px;
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
     top: 18px; 
-    /*width: 40px; */
+    width: 40px;
   }
 
   .navbar-default .navbar-toggle:hover,
