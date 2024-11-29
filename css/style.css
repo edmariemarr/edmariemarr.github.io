@@ -487,112 +487,13 @@ footer .footer-copyright {
 -----------------------------------------*/
 
   @media (max-width: 767px) {
-    /* Navbar header using Flexbox to align items */
-    .navbar-default .navbar-header {
-      display: flex;
-      justify-content: space-between; /* This ensures the favicon and hamburger icon are at opposite ends */
-      align-items: center;  /* Vertically center the items */
-      width: 100%;
-      padding: 0 15px; /* Add space from left and right edges */
-    }
   
-    /* Home button (favicon) aligned to the left */
-    .navbar-header a {
-      display: block;
-      width: 32px; /* Set a fixed size for the favicon */
-      height: 32px;
-      margin-right: auto; /* Pushes the favicon to the left */
-    }
-  
-    /* Hamburger icon aligned to the right */
-    .navbar-toggle {
-      font-size: 32px; /* Increased font size for bigger hamburger icon */
-      padding: 12px; /* Increased padding for a larger clickable area */
-      margin-left: auto; /* Pushes the hamburger icon to the right */
-      z-index: 1000;
-    }
-  
-    /* Styling for the individual hamburger bars */
-    .navbar-default .navbar-toggle .icon-bar {
-      background: #bdc3c7; /* Bar color */
-      border-color: transparent;
-    }
-  
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-      background-color: transparent; /* Remove background on hover/focus */
-    }
-  
-    /* Ensure the navbar is flush with the screen edges */
-    body, html {
-      margin: 0;
-      padding: 0;
-    }
-  
-    /* Ensures the menu items are centered when expanded (in collapsed navbar state) */
-    .navbar-default .navbar-collapse {
-      text-align: center;
-    }
-  
-    .navbar-default .navbar-nav {
-      display: inline-block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    h1 {
-      font-size: 32px;
-    }
-  
-    h2 {
-      font-size: 32px;
-      line-height: 48px;
-    }
-  
-    h3 {
-      font-size: 22px;
-    }
-  
-    .section-title h2 {
-      font-size: 22px;
-      line-height: 35px;
-    }
-  
-    .navbar-default {
-      margin-top: 0px;
-    }
-  
-    .navbar-default .navbar-nav li a {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-  
-    footer {
-      text-align: center;
-    }
-  
-    footer .col-md-4 {
-      padding-top: 42px;
-    }
-  
-    .social-icon {
-      text-align: center;
-    }
-  }
-  
-
-
-
-  /*.navbar-default .navbar-header {
+  .navbar-default .navbar-header {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     width: 100%;
     padding: 0 15px; 
-  }
-
-  .navbar-default .navbar-header img {
-    width: 32px;
-    height: 32px;
   }
 
   .navbar-toggle {
@@ -660,7 +561,7 @@ footer .footer-copyright {
   .social-icon {
     text-align: center;
   }
-}*/
+}
 
 
 
