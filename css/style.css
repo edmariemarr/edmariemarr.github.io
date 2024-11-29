@@ -332,6 +332,16 @@ a:hover, a:active, a:focus {
   text-align: left;
 }
 
+#about .two-column-container {
+  display: flex;                 /* Use flexbox for side-by-side layout */
+  justify-content: space-between; /* Optional: Adds space between the columns */
+}
+
+#about .two-column-container .column {
+  width: 48%;           /* Column width (adjust as necessary) */
+  padding: 10px;        /* Padding inside each column */
+}
+
 /*---------------------------------------
    Portfolio section              
 -----------------------------------------*/
@@ -616,6 +626,15 @@ footer .footer-copyright {
     object-fit: cover;
     object-position: center;
     display: block;
+  }
+
+  #about .two-column-container {
+    flex-direction: column;
+  }
+  
+  #about .two-column-container .column {
+    width: 100%; 
+    margin-bottom: 10px; 
   }
 
   footer {
