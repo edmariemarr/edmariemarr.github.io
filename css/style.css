@@ -500,7 +500,7 @@ footer .footer-copyright {
   .navbar-toggle {
     font-size: 40px;  /* Slightly smaller font size */
     padding: 12px;    /* Padding around the button */
-    margin-left: auto; /* This ensures the hamburger is right-aligned */
+    margin-left: auto; /* Align the hamburger button to the right */
     margin-right: 0;   /* Ensure it aligns to the right side of the screen */
     z-index: 1000;    /* Keeps the hamburger button on top */
   }
@@ -511,18 +511,22 @@ footer .footer-copyright {
     border-color: transparent;
     height: 3px;   /* Reduced thickness to 3px for a thinner appearance */
     width: 40px;   /* Default width for the middle bar */
-    margin: 6px auto; /* Spacing between bars */
+    margin: 6px 0; /* Spacing between bars */
+    position: relative; /* Ensure bars are positioned */
+    left: 0; /* Align bars to the left by default */
   }
 
-  /* Top and bottom bars (longer) */
+  /* Top and bottom bars (longer), align towards the right */
   .navbar-default .navbar-toggle .icon-bar:nth-child(1), /* Top bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) { /* Bottom bar */
     width: 50px;  /* Long top and bottom bars */
+    left: 10px;  /* Shift bars 10px to the right */
   }
 
-  /* Middle bar (shorter) */
+  /* Middle bar (shorter), align towards the right */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
     width: 35px;  /* Shorter middle bar */
+    left: 5px;  /* Shift middle bar slightly to the right */
   }
 
   /* Hover/focus effect for the hamburger button */
@@ -605,6 +609,7 @@ footer .footer-copyright {
     text-align: center;
   }
 }
+
 
 
   /*@media (max-width: 767px) {
