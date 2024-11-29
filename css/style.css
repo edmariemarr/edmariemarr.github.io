@@ -561,7 +561,8 @@ footer .footer-copyright {
     height: 2px; 
     position: absolute;
     width: 50px; 
-    right: 0;
+    /*right: 0;*/
+    right: 5px;
     transition: all 0.3s ease; 
   }
 
