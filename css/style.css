@@ -486,6 +486,100 @@ footer .footer-copyright {
    Mobile Responsive         
 -----------------------------------------*/
 
+@media (max-width: 767px) {
+  /* Navbar header using Flexbox to align the favicon and hamburger icon */
+  .navbar-default .navbar-header {
+    display: flex;
+    justify-content: space-between; /* Align favicon to right and hamburger to left */
+    align-items: center; /* Vertically align items */
+    width: 100%;
+    padding: 0 20px; /* Add space from the left and right edges */
+    position: relative;
+  }
+
+  /* Navbar header image (favicon) on the right */
+  .navbar-default .navbar-header img {
+    width: 32px;
+    height: 32px;
+    /* Align the favicon to the right, managed by Flexbox */
+  }
+
+  /* Navbar toggle (hamburger icon) on the left */
+  .navbar-toggle {
+    font-size: 28px;
+    padding: 10px;
+    z-index: 1000;
+    /* Align the hamburger icon to the left */
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background: #bdc3c7;
+    border-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+
+  /* Ensuring the menu items stay centered */
+  .navbar-default .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav {
+    display: inline-block; /* Ensures the navbar items stay centered */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Styling for h1, h2, etc. (Unchanged) */
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .section-title h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .navbar-default {
+    margin-top: 0px;
+  }
+
+  .navbar-default .navbar-nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #blog-single-post .blog-post-title h2 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .col-md-4 {
+    padding-top: 42px;
+  }
+
+  .social-icon {
+    text-align: center;
+  }
+}
+
+/*
   .navbar-default .navbar-header {
     display: flex;
     justify-content: space-between;
@@ -559,7 +653,7 @@ footer .footer-copyright {
   .social-icon {
     text-align: center;
   }
-}
+}*/
 
 
 
