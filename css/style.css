@@ -500,7 +500,7 @@ footer .footer-copyright {
 
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; /* Keep space between the favicon and the hamburger button */
+    justify-content: space-between; 
     align-items: center;
     width: 100%;
     padding: 0 15px;
@@ -508,16 +508,16 @@ footer .footer-copyright {
 
   .navbar-default .navbar-header .left-container {
     display: flex;
-    justify-content: flex-start; /* Align to the left */
+    justify-content: flex-start; 
     align-items: center;
-    flex-grow: 0; /* Allow it to take just the space it needs */
-    margin-right: 20px; /* Optional: space between favicon and menu */
+    flex-grow: 0; 
+    margin-right: 20px; 
   }
 
   .navbar-toggle {
     font-size: 50px;
     padding: 12px;
-    margin-left: auto; /* Keep hamburger icon on the right */
+    margin-left: auto;
     /*margin-right: 20px;*/
     position: relative;
     z-index: 1000;
