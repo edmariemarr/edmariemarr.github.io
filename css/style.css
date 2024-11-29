@@ -487,27 +487,24 @@ footer .footer-copyright {
 -----------------------------------------*/
 
 @media (max-width: 767px) {
-  /* Navbar header using Flexbox to align left and right */
+
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; /* Align items at opposite ends */
-    align-items: center; /* Vertically center the items */
-    width: 100%; /* Full width */
-    padding: 0 15px; /* Space from the left and right edges */
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    padding: 0 15px; 
   }
 
-  /* Navbar header image (favicon) on the left */
-  .navbar-default .navbar-header img {
+  /*.navbar-default .navbar-header img {
     width: 32px;
     height: 32px;
-  }
+  }*/
 
-  /* Navbar toggle (hamburger icon) on the right */
   .navbar-toggle {
     font-size: 28px;
     padding: 10px;
     z-index: 1000;
-    /* Align the hamburger icon to the right */
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -520,18 +517,16 @@ footer .footer-copyright {
     background-color: transparent;
   }
 
-  /* Ensuring the menu items stay centered */
   .navbar-default .navbar-collapse {
     text-align: center;
   }
 
   .navbar-default .navbar-nav {
-    display: inline-block; /* Ensures the navbar items stay centered */
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* Styling for h1, h2, etc. (Unchanged) */
   h1 {
     font-size: 32px;
   }
