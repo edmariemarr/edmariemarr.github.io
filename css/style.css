@@ -731,6 +731,16 @@ footer .footer-copyright {
     margin: 0 auto; 
   }
 
+  #about .col-md-4.col-sm-12 {
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    text-align: left;
+    overflow: hidden;
+  }
+
   #blog-single-post .blog-post-title h2 {
     font-size: 29px;
     line-height: 40px;
@@ -748,11 +758,5 @@ footer .footer-copyright {
     text-align: center;
   }
 
-}
-
-@media (max-width: 480px) {
-  #about .col-md-8 img {
-    width: 80%;
-  }
 }
 
