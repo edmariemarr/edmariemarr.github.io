@@ -593,7 +593,7 @@ footer .footer-copyright {
   }
 
   #about .col-md-8 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
     object-position: center;
@@ -611,6 +611,11 @@ footer .footer-copyright {
 
   .social-icon {
     text-align: center;
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
   }
 }
 
