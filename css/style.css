@@ -566,6 +566,7 @@ footer .footer-copyright {
 
   .navbar-default .navbar-collapse {
     text-align: center;
+    align-items: center;
   }
 
   .navbar-default .navbar-nav {
