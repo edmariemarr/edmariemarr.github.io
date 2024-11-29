@@ -531,7 +531,7 @@ footer .footer-copyright {
 
   /* Bottom bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
-    top: 12px; /* Adjust top distance to center it properly */
+    top: 18px; /* Adjust top distance to center it properly */
     width: 40px; /* Long bottom bar */
   }
 
