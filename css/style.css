@@ -487,63 +487,110 @@ footer .footer-copyright {
 -----------------------------------------*/
 @media (max-width: 767px) {
   
+  /* Keeps the layout of navbar header as it is */
   .navbar-default .navbar-header {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     width: 100%;
-    padding: 0 15px; 
+    padding: 0 15px; /* Padding around the navbar */
   }
 
-  /* Adjusted font size for the hamburger button */
+  /* Hamburger button - decreased font size for better proportions */
   .navbar-toggle {
-    font-size: 40px;  /* Changed from 60px to 40px for better proportion */
-    padding: 12px;    /* Padding remains the same */
-    margin-left: auto;
-    z-index: 1000;
+    font-size: 40px;  /* Decreased font size from 60px to 40px to make it proportionate */
+    padding: 12px;    /* Padding remains the same to maintain button size */
+    margin-left: auto; /* Aligns the button properly */
+    z-index: 1000;   /* Ensure it stays on top if needed */
   }
 
-  /* Adjusted styles for the hamburger icon bars */
+  /* Style the individual bars inside the hamburger icon */
   .navbar-default .navbar-toggle .icon-bar {
-    background: #bdc3c7;  /* Color of the bars */
+    background: #bdc3c7; /* Color of the bars */
     border-color: transparent;
-    height: 4px;           /* Changed from 6px to 4px to make the bars thinner */
-    width: 40px;           /* Default width for the middle bar */
-    margin: 6px auto;      /* Margin between bars */
+    height: 4px;   /* Changed from 6px to 4px for a thinner, cleaner look */
+    width: 40px;   /* Default width for the middle bar */
+    margin: 6px auto; /* Spacing between bars */
   }
 
-  /* Top and bottom bars (long) */
+  /* Top and bottom bars (longer) */
   .navbar-default .navbar-toggle .icon-bar:nth-child(1), /* Top bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) { /* Bottom bar */
-    width: 50px;  /* Changed from 35px to 50px to make them longer */
+    width: 50px;  /* Increased width of top and bottom bars to 50px for a longer look */
   }
 
-  /* Middle bar (short) */
+  /* Middle bar (shorter) */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    width: 35px;  /* Changed from 35px to 35px (keeps it short) */
+    width: 35px;  /* Shortened middle bar to 35px */
   }
 
-  /* Hover/focus effect for the button */
+  /* Hamburger icon hover and focus state - no background color */
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
     background-color: transparent;
   }
-  
+
+  /* Navbar collapse text alignment */
   .navbar-default .navbar-collapse {
-    text-align: center;
+    text-align: center; /* Keeps the collapse aligned to the center */
   }
 
-  /* Other untouched styles (they remain as-is) */
+  /* Center the navbar items and ensure proper alignment */
   .navbar-default .navbar-nav {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  h1, h2, h3 {
-    font-size: 32px; /* Preserved size for headers */
+  /* Font sizes for headers (unchanged) */
+  h1 {
+    font-size: 32px;
   }
 
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .section-title h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  /* Margin for navbar to remove space at the top */
+  .navbar-default {
+    margin-top: 0px;
+  }
+
+  /* Padding adjustments for navbar items */
+  .navbar-default .navbar-nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Ensures the about section content is centered and flexible */
+  #about .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px;
+    padding: 0 15px; 
+  }
+
+  #about .col-md-8 img {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+    object-position: center; 
+    display: block; 
+  }
+
+  /* Footer styles (kept the same) */
   footer {
     text-align: center;
   }
@@ -552,6 +599,7 @@ footer .footer-copyright {
     padding-top: 42px;
   }
 
+  /* Social icon styles (kept the same) */
   .social-icon {
     text-align: center;
   }
