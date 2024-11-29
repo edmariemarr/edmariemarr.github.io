@@ -559,11 +559,10 @@ footer .footer-copyright {
     padding: 0 15px; /* Ensure no padding pushes content */
   }
 
-  /* Set the width of the column containing the image to 100% */
-  #about .col-md-8 {
-    width: 100%; /* Ensure it takes full width on mobile */
-    padding-right: 0; /* Remove any right padding */
-  }
+  /*#about .col-md-8 {
+    width: 100%; 
+    padding-right: 0;
+  }*/
 
   /* Center the image inside the column */
   #about .col-md-8 img {
