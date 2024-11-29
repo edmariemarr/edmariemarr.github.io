@@ -519,19 +519,19 @@ footer .footer-copyright {
 
   /* Top bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(1) {
-    top: 5px; /* Align the top bar to the top */
+    top: 4px; /* Align the top bar to the top */
     width: 40px; /* Long top bar */
   }
 
   /* Middle bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    top: 10px; /* Adjust top distance to center it properly */
+    top: 8px; /* Adjust top distance to center it properly */
     width: 20px; /* Shorter middle bar */
   }
 
   /* Bottom bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
-    top: 15px; /* Adjust top distance to center it properly */
+    top: 12px; /* Adjust top distance to center it properly */
     width: 40px; /* Long bottom bar */
   }
 
