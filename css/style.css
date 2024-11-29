@@ -512,7 +512,7 @@ footer .footer-copyright {
     border-color: transparent;
     height: 2px; /* Thinner bars */
     position: absolute; /* Absolute positioning for better alignment */
-    width: 40px; /* Default width */
+    width: 50px; /* Default width */
     right: 0; /* Align bars to the right side of the hamburger */
     transition: all 0.3s ease; /* Smooth transition for hover/focus effects */
   }
