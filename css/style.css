@@ -486,29 +486,30 @@ footer .footer-copyright {
    Mobile Responsive         
 -----------------------------------------*/
 @media (max-width: 767px) {
-  
-  /* Keeps the layout of navbar header as it is */
+
+  /* Navbar header layout remains unchanged */
   .navbar-default .navbar-header {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     width: 100%;
-    padding: 0 15px; /* Padding around the navbar */
+    padding: 0 15px; 
   }
 
-  /* Hamburger button - decreased font size for better proportions */
+  /* Hamburger button adjustments: smaller size and right-aligned */
   .navbar-toggle {
-    font-size: 40px;  /* Decreased font size from 60px to 40px to make it proportionate */
-    padding: 12px;    /* Padding remains the same to maintain button size */
-    margin-left: auto; /* Aligns the button properly */
-    z-index: 1000;   /* Ensure it stays on top if needed */
+    font-size: 40px;  /* Slightly smaller font size */
+    padding: 12px;    /* Padding around the button */
+    margin-left: auto; /* This ensures the hamburger is right-aligned */
+    margin-right: 0;   /* Ensure it aligns to the right side of the screen */
+    z-index: 1000;    /* Keeps the hamburger button on top */
   }
 
   /* Style the individual bars inside the hamburger icon */
   .navbar-default .navbar-toggle .icon-bar {
-    background: #bdc3c7; /* Color of the bars */
+    background: #000;  /* Changed color to black */
     border-color: transparent;
-    height: 4px;   /* Changed from 6px to 4px for a thinner, cleaner look */
+    height: 3px;   /* Reduced thickness to 3px for a thinner appearance */
     width: 40px;   /* Default width for the middle bar */
     margin: 6px auto; /* Spacing between bars */
   }
@@ -516,26 +517,26 @@ footer .footer-copyright {
   /* Top and bottom bars (longer) */
   .navbar-default .navbar-toggle .icon-bar:nth-child(1), /* Top bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) { /* Bottom bar */
-    width: 50px;  /* Increased width of top and bottom bars to 50px for a longer look */
+    width: 50px;  /* Long top and bottom bars */
   }
 
   /* Middle bar (shorter) */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    width: 35px;  /* Shortened middle bar to 35px */
+    width: 35px;  /* Shorter middle bar */
   }
 
-  /* Hamburger icon hover and focus state - no background color */
+  /* Hover/focus effect for the hamburger button */
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
     background-color: transparent;
   }
 
-  /* Navbar collapse text alignment */
+  /* Centering collapse content */
   .navbar-default .navbar-collapse {
-    text-align: center; /* Keeps the collapse aligned to the center */
+    text-align: center; 
   }
 
-  /* Center the navbar items and ensure proper alignment */
+  /* Center the navbar items, no changes */
   .navbar-default .navbar-nav {
     display: inline-block;
     margin-left: auto;
@@ -561,7 +562,7 @@ footer .footer-copyright {
     line-height: 35px;
   }
 
-  /* Margin for navbar to remove space at the top */
+  /* Margin for navbar */
   .navbar-default {
     margin-top: 0px;
   }
@@ -572,7 +573,7 @@ footer .footer-copyright {
     padding-right: 10px;
   }
 
-  /* Ensures the about section content is centered and flexible */
+  /* About section layout */
   #about .container {
     display: flex;
     flex-direction: column; 
@@ -590,7 +591,7 @@ footer .footer-copyright {
     display: block; 
   }
 
-  /* Footer styles (kept the same) */
+  /* Footer styling */
   footer {
     text-align: center;
   }
@@ -599,11 +600,12 @@ footer .footer-copyright {
     padding-top: 42px;
   }
 
-  /* Social icon styles (kept the same) */
+  /* Social icon */
   .social-icon {
     text-align: center;
   }
 }
+
 
   /*@media (max-width: 767px) {
   
