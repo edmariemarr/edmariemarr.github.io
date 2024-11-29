@@ -592,8 +592,7 @@ footer .footer-copyright {
   }
 
   .navbar-default .navbar-nav {
-    /*display: inline-block;*/
-    display: flex;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -620,7 +619,6 @@ footer .footer-copyright {
     margin-top: 0px;
   }
 
-  
   .navbar-default .navbar-nav li a {
     padding-left: 10px;
     padding-right: 10px;
