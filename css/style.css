@@ -620,18 +620,10 @@ footer .footer-copyright {
     margin-top: 0px;
   }
 
-  /*
+  
   .navbar-default .navbar-nav li a {
     padding-left: 10px;
     padding-right: 10px;
-  }*/
-
-  .navbar-default .navbar-nav li {
-    list-style-type: none;
-  }
-
-  .navbar-default .navbar-nav li a {
-    padding: 15px;
   }
 
   #about .container {
