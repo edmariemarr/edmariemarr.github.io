@@ -485,7 +485,7 @@ footer .footer-copyright {
   /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
   /* Navbar header layout */
   .navbar-default .navbar-header {
