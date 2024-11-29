@@ -516,9 +516,9 @@ footer .footer-copyright {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  width: 100%;
+  width: 100%; 
   position: relative;
-  padding: 0 15px; 
+  padding: 0 15px;
 }
 
 .navbar-default .navbar-header img {
@@ -527,7 +527,7 @@ footer .footer-copyright {
 }
 
 .navbar-toggle {
-  font-size: 32px;
+  font-size: 28px;
   padding: 10px;
   z-index: 1000;
 }
