@@ -482,29 +482,34 @@ footer .footer-copyright {
     transform: scale(1.1);
 }
 
-/*---------------------------------------
+  /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
 
 @media (max-width: 767px) {
+  /* Navbar header using Flexbox to align left and right */
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    width: 100%; 
-    padding: 0 15px; 
+    justify-content: space-between; /* Align items at opposite ends */
+    align-items: center; /* Vertically center the items */
+    width: 100%; /* Full width */
+    padding: 0 20px; /* Increase space from edges */
     position: relative;
   }
 
+  /* Navbar header image (favicon) on the right */
   .navbar-default .navbar-header img {
     width: 32px;
     height: 32px;
+    /* No changes, but it will be aligned to the right by Flexbox */
   }
 
+  /* Navbar toggle (hamburger icon) on the left */
   .navbar-toggle {
     font-size: 28px;
     padding: 10px;
     z-index: 1000;
+    /* Left alignment is handled by Flexbox */
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -556,6 +561,7 @@ footer .footer-copyright {
     text-align: center;
   }
 }
+
 
   /*.navbar-default .navbar-header {
     display: flex;
