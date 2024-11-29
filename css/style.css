@@ -574,46 +574,16 @@ footer .footer-copyright {
     background-color: transparent;
   }
 
-  /*.navbar-default .navbar-collapse {
-    text-align: center;
-    align-items: center;
-  }*/
-
-  /* Center the collapse menu for mobile */
   .navbar-default .navbar-collapse {
     text-align: center;
     align-items: center;
-    width: 100%;
-    position: absolute; /* Position absolutely to center the menu */
-    top: 50%; /* Vertical centering */
-    left: 50%; /* Horizontal centering */
-    transform: translate(-50%, -50%); /* Adjust position to be exactly centered */
-    display: none; /* Hidden by default */
-    flex-direction: column;
   }
 
-  /* Show the collapse menu only when toggled */
-  .navbar-default .navbar-collapse.collapse {
-    display: flex; /* Show when toggle is active */
-  }
-
-  /* Make sure navbar items are centered */
-  .navbar-default .navbar-nav {
-    display: flex;
-    justify-content: center; /* Center items */
-    flex-direction: column; /* Stack items vertically */
-    width: 100%;
-    padding-left: 0; /* Remove any left padding */
-    padding-right: 0; /* Remove any right padding */
-  }
-
-
-  /*
   .navbar-default .navbar-nav {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-  }*/
+  }
 
   h1 {
     font-size: 32px;
