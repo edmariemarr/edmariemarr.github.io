@@ -524,8 +524,7 @@ footer .footer-copyright {
   }
 
   .navbar-default .navbar-header .left-container img {
-    width: 50px;
-    height: 50px;
+    display: none;
   }
 
   /*.navbar-header .left-container img {
