@@ -525,13 +525,13 @@ footer .footer-copyright {
 
   /* Middle bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    top: 10px; /* Adjust top distance to center it */
+    top: 7px; /* Adjust top distance to center it properly */
     width: 35px; /* Shorter middle bar */
   }
 
   /* Bottom bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
-    top: 20px; /* Adjust top distance to center it */
+    top: 14px; /* Adjust top distance to center it properly */
     width: 50px; /* Long bottom bar */
   }
 
@@ -613,7 +613,6 @@ footer .footer-copyright {
     text-align: center;
   }
 }
-
 
   /*@media (max-width: 767px) {
   
