@@ -494,7 +494,87 @@ footer .footer-copyright {
 
 @media (max-width: 767px) {
 
+  /*---------------------------------------
+   Mobile Responsive         
+-----------------------------------------*/
+
+@media (max-width: 767px) {
+  /* Navbar header using Flexbox */
   .navbar-default .navbar-header {
+    display: flex;
+    justify-content: space-between; /* Align items left and right */
+    align-items: center; /* Vertically align the items in the center */
+    width: 100%; /* Full width of the container */
+    padding: 0 15px; /* Optional, for spacing from the edges */
+  }
+
+  /* Navbar header image on the left */
+  .navbar-default .navbar-header img {
+    width: 32px;
+    height: 32px;
+    /* Keep the image on the left by default */
+  }
+
+  /* Navbar toggle (hamburger icon) on the right */
+  .navbar-toggle {
+    font-size: 28px;
+    padding: 10px;
+    z-index: 1000;
+    /* Align the hamburger icon to the right */
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background: #bdc3c7;
+    border-color: transparent;
+  }
+
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .section-title h2 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .navbar-default {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .col-md-4 {
+    padding-top: 42px;
+  }
+
+  .social-icon {
+    text-align: center;
+  }
+}
+
+  /*.navbar-default .navbar-header {
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -567,85 +647,7 @@ footer .footer-copyright {
   .social-icon {
     text-align: center;
   }
-}
-
-/*@media (max-width: 767px) {
-  .navbar-default .navbar-header {
-    width: 100%;
-    text-align: center;
-  }
-
-  .navbar-default .navbar-header img {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    top: 10px;
-    left: 15px;
-  }
-
-  .navbar-toggle {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    z-index: 1000;
-    font-size: 28px;
-    padding: 10px;
-  }
-
-.navbar-default .navbar-toggle .icon-bar {
-  background: #bdc3c7;
-  border-color: transparent;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: transparent;
-}
-
-  h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 32px;
-    line-height: 48px;
-  }
-
-  h3 {
-    font-size: 22px;
-  }
-
-  .section-title h2 {
-    font-size: 22px;
-    line-height: 35px;
-  }
-
-  .navbar-default {
-    margin-top: 0px;
-    text-align: center;
-  }
-
-  .navbar-default .navbar-nav li a {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  #blog-single-post .blog-post-title h2 {
-    font-size: 29px;
-    line-height: 40px;
-  }
-
-  footer {
-    text-align: center;
-  }
-
-  footer .col-md-4 {
-    padding-top: 42px;
-  }
-
-  .social-icon {
-    text-align: center;
-  }
-
 }*/
+
+
 
