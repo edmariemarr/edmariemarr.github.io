@@ -520,7 +520,6 @@ footer .footer-copyright {
     justify-content: space-between; 
     align-items: center;
     width: 100%;
-    /*padding: 0 15px;*/
     padding: 0;
   }
 
@@ -532,19 +531,10 @@ footer .footer-copyright {
     margin-right: 20px; 
   }
 
-  /*.navbar-toggle {
-    font-size: 50px;
-    padding: 12px;
-    margin-left: auto;
-    position: relative;
-    z-index: 1000;
-  }*/
-
   .navbar-default .navbar-toggle {
     font-size: 50px;
     padding: 12px;
     margin-left: auto;
-    /*margin-right: 15px;*/ /* Move the icon bars a tiny bit to the right */
     position: relative;
     z-index: 1000;
   }
