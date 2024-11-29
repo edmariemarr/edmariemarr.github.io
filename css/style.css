@@ -496,16 +496,30 @@ footer .footer-copyright {
     padding: 0 15px; 
   }
 
-  .navbar-toggle {
+  /*.navbar-toggle {
     font-size: 50px; 
     padding: 12px; 
     margin-left: auto; 
     z-index: 1000;
+  }*/
+
+  .navbar-toggle {
+    font-size: 60px;  /* Increase the font size for the hamburger button */
+    padding: 14px;    /* Increase padding to ensure the button isn't too tight */
+    margin-left: auto;
+    z-index: 1000;
   }
+
+  /*.navbar-default .navbar-toggle .icon-bar {
+    background: #bdc3c7;
+    border-color: transparent;
+  }*/
 
   .navbar-default .navbar-toggle .icon-bar {
     background: #bdc3c7;
     border-color: transparent;
+    height: 6px;       /* Increase the height of the bars */
+    width: 35px;       /* Increase the width of the bars */
   }
 
   .navbar-default .navbar-toggle:hover,
