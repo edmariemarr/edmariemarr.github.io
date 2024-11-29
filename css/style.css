@@ -490,7 +490,7 @@ footer .footer-copyright {
 
 
 @media (max-width: 767px) {
-  .navbar-default .navbar-header {
+  /*.navbar-default .navbar-header {
     width: 100%;
     text-align: center;
   }
@@ -510,7 +510,27 @@ footer .footer-copyright {
     z-index: 1000;
     font-size: 28px;
     padding: 10px;
-  }
+  }*/
+
+.navbar-default .navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%;
+  position: relative;
+  padding: 0 15px; 
+}
+
+.navbar-default .navbar-header img {
+  width: 32px;
+  height: 32px;
+}
+
+.navbar-toggle {
+  font-size: 28px;
+  padding: 10px;
+  z-index: 1000;
+}
 
 .navbar-default .navbar-toggle .icon-bar {
   background: #bdc3c7;
