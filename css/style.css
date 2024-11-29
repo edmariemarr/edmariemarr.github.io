@@ -579,11 +579,11 @@ footer .footer-copyright {
     align-items: center;
   }
 
-  /*.navbar-default .navbar-nav {
+  .navbar-default .navbar-nav {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-  }*/
+  }
 
   h1 {
     font-size: 32px;
