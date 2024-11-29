@@ -515,7 +515,7 @@ footer .footer-copyright {
 
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 0 15px;
@@ -523,12 +523,13 @@ footer .footer-copyright {
 
   .navbar-default .navbar-header .left-container {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     align-items: center;
-    flex-grow: 0; 
-    margin-right: 20px; 
+    flex-grow: 0;
+    margin-right: 20px;
   }
 
+  /* Position the toggle button */
   .navbar-toggle {
     font-size: 50px;
     padding: 12px;
@@ -545,28 +546,28 @@ footer .footer-copyright {
   }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background: #020101; 
+    background: #020101;
     border-color: transparent;
-    height: 2px; 
+    height: 2px;
     position: absolute;
-    width: 50px; 
+    width: 50px;
     right: 0;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(1) {
     top: 0px;
-    width: 40px; 
+    width: 40px;
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    top: 7px; 
+    top: 7px;
     width: 40px;
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
-    top: 18px; 
-    width: 40px; 
+    top: 18px;
+    width: 40px;
   }
 
   .navbar-default .navbar-toggle:hover,
@@ -574,33 +575,40 @@ footer .footer-copyright {
     background-color: transparent;
   }
 
-  /* Hide the menu by default on small screens */
+  /* Mobile menu should be hidden by default */
   .navbar-default .navbar-collapse {
-    display: none; /* Hide the menu */
-    flex-direction: column; /* Stack the items vertically */
+    display: none; /* Hidden initially */
+    flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
     text-align: center;
-    width: 100%; /* Take the full width */
+    width: 100%;
+    position: absolute; /* Position the menu below the navbar */
+    top: 100%; /* Align the menu directly below the navbar */
+    left: 0; /* Ensure the menu spans the full width */
+    background-color: white; /* Ensure the background is visible */
+    z-index: 999; /* Make sure it appears on top */
   }
 
-  /* Show the menu when the toggle button is clicked */
+  /* When the menu is toggled (Bootstrap collapse behavior), show the menu */
   .navbar-default .navbar-collapse.collapse {
-    display: flex; /* Show the menu when collapsed class is added */
+    display: flex; /* Show the menu */
   }
 
+  /* Stack navbar items vertically when collapsed */
   .navbar-default .navbar-nav {
     display: flex;
-    flex-direction: column; /* Stack the menu items vertically */
+    flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     margin-left: 0;
     margin-right: 0;
-    width: 100%; /* Ensures full width for nav items */
-    padding: 0; /* Remove any padding that might affect layout */
+    width: 100%;
+    padding: 0;
   }
 
   .navbar-default .navbar-nav li {
-    display: block; /* Ensure each item is block-level to stack vertically */
-    width: 100%; /* Make each item take full width of the container */
+    display: block; /* Each list item takes full width and stacks */
+    width: 100%; /* Ensure each item takes full width */
   }
 
   .navbar-default .navbar-nav li a {
@@ -608,19 +616,7 @@ footer .footer-copyright {
     padding-right: 15px;
     font-size: 18px;
     display: block; /* Ensure anchor tags are block-level to take full width */
-    text-align: center; /* Center the text inside each item */
-  }
-
-  .navbar-toggle.collapsed .icon-bar {
-    background: #020101; 
-    border-color: transparent;
-    height: 2px;
-    width: 50px;
-  }
-
-  /* Optional: Optional styling for the active state */
-  .navbar-default .navbar-nav li.active a {
-    font-weight: bold;
+    text-align: center; /* Center text in the items */
   }
 
   /* Rest of your existing mobile styles */
@@ -661,8 +657,6 @@ footer .footer-copyright {
     overflow-x: hidden;
   }
 }
-
-
 
 /*@media (max-width: 768px) {
   * {
