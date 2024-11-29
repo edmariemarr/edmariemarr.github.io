@@ -513,13 +513,13 @@ footer .footer-copyright {
     text-align: center;
   }
 
-  /*.navbar-default .navbar-header {
+  .navbar-default .navbar-header {
     display: flex;
     justify-content: space-between; 
     align-items: center;
     width: 100%;
     padding: 0 15px;
-  }*/
+  }
 
   .navbar-default .navbar-header .left-container {
     display: flex;
