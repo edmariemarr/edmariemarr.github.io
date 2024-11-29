@@ -531,32 +531,6 @@ footer .footer-copyright {
     margin-right: 10px;
   }
 
-  /*.navbar-header .left-container img {
-    margin-left: 0;
-    /*margin-right: auto;*/
-   /* width: 50px;
-    height: 50px; 
-  }*/
- 
-  /*.navbar-default .navbar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 0 15px;
-  }
-
-  
-  .navbar-toggle {
-    font-size: 50px;
-    padding: 12px;
-    margin-left: auto; 
-    margin-right: 20px;
-    /*margin-right: 0;*/ 
-    /*position: relative;
-    z-index: 1000; 
-  }*/
-
   .navbar-default .navbar-toggle .icon-bar {
     background: #020101; 
     border-color: transparent;
@@ -591,13 +565,22 @@ footer .footer-copyright {
   }
 
   .navbar-default .navbar-collapse {
-    text-align: center;
+    display: flex;              /* Enable flexbox */
+    justify-content: center;    /* Center the menu items */
+    text-align: center;         /* Optional: Align the text inside the links */
+    width: 100%;                /* Make sure it takes full width */
+    padding: 0 15px;
   }
 
   .navbar-default .navbar-nav {
-    display: inline-block;
+    /*display: inline-block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
+    display: flex;              /* Enable flexbox on the navbar items */
+    justify-content: center;    /* Center the items horizontally */
+    width: 100%;                /* Ensure it takes full width */
+    padding-left: 0;            /* Remove default left padding */
+    padding-right: 0; 
   }
 
   h1 {
@@ -622,9 +605,19 @@ footer .footer-copyright {
     margin-top: 0px;
   }
 
-  .navbar-default .navbar-nav li a {
+  /*.navbar-default .navbar-nav li a {
     padding-left: 10px;
     padding-right: 10px;
+  }*/
+
+  .navbar-default .navbar-nav li {
+    margin: 0 10px;             /* Add horizontal space between menu items */
+  }
+
+  /* Navbar links */
+  .navbar-default .navbar-nav li a {
+    font-size: 18px;            /* Adjust font size */
+    padding: 10px 15px;         /* Adjust padding for each item */
   }
 
   #about .container {
