@@ -254,11 +254,11 @@ a:hover, a:active, a:focus {
 }
 
 #about .col-md-8 img {
-  /*width: 350px;
-  height: 500px;*/
+  /*width: 377px;
+  height: 503px;*/
   width: 100%;
-  height: 500px;
-  object-fit: cover;
+  height: 503px;
+  /*object-fit: cover;*/
   display: block;  
 }
 
@@ -292,17 +292,6 @@ a:hover, a:active, a:focus {
 #about .col-md-4.col-sm-12 p {
   margin-top: 10px; 
 }
-
-/*
-#about .col-md-4 .additional-text {
-  text-align: left;
-  font-size: 18px; 
-  margin-top: 20px; 
-  margin-bottom: 15px;
-  line-height: 1.6;
-  font-weight: normal;
-  font-style: normal; 
-}*/
 
 #about .col-md-4 b, 
 #about .col-md-4 strong {
