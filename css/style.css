@@ -488,39 +488,25 @@ footer .footer-copyright {
    Mobile Responsive         
 -----------------------------------------*/
 
-/*---------------------------------------
-   Mobile Responsive         
------------------------------------------*/
-
 @media (max-width: 767px) {
-
-  /*---------------------------------------
-   Mobile Responsive         
------------------------------------------*/
-
-@media (max-width: 767px) {
-  /* Navbar header using Flexbox */
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; /* Align items left and right */
-    align-items: center; /* Vertically align the items in the center */
-    width: 100%; /* Full width of the container */
-    padding: 0 15px; /* Optional, for spacing from the edges */
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    padding: 0 15px; 
+    position: relative;
   }
 
-  /* Navbar header image on the left */
   .navbar-default .navbar-header img {
     width: 32px;
     height: 32px;
-    /* Keep the image on the left by default */
   }
 
-  /* Navbar toggle (hamburger icon) on the right */
   .navbar-toggle {
     font-size: 28px;
     padding: 10px;
     z-index: 1000;
-    /* Align the hamburger icon to the right */
   }
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -553,12 +539,16 @@ footer .footer-copyright {
 
   .navbar-default {
     margin-top: 0px;
-    text-align: center;
   }
 
   .navbar-default .navbar-nav li a {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  #blog-single-post .blog-post-title h2 {
+    font-size: 29px;
+    line-height: 40px;
   }
 
   footer {
@@ -573,6 +563,7 @@ footer .footer-copyright {
     text-align: center;
   }
 }
+
 
   /*.navbar-default .navbar-header {
     display: flex;
