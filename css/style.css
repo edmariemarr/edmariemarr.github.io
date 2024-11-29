@@ -592,18 +592,12 @@ footer .footer-copyright {
     flex-direction: column;
   }
 
-  /* Show the menu when navbar is toggled */
+  /* Show the collapse menu only when toggled */
   .navbar-default .navbar-collapse.collapse {
-    display: flex;
+    display: flex; /* Show when toggle is active */
   }
 
-  /*
-  .navbar-default .navbar-nav {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-  }*/
-
+  /* Make sure navbar items are centered */
   .navbar-default .navbar-nav {
     display: flex;
     justify-content: center; /* Center items */
@@ -612,6 +606,14 @@ footer .footer-copyright {
     padding-left: 0; /* Remove any left padding */
     padding-right: 0; /* Remove any right padding */
   }
+
+
+  /*
+  .navbar-default .navbar-nav {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }*/
 
   h1 {
     font-size: 32px;
