@@ -724,55 +724,40 @@ footer .footer-copyright {
   }
 
   #about .container {
-    width: 100%;
+    width: 100%; /* Ensure the container is fully responsive */
+    max-width: 100%; /* Prevent container from exceeding the viewport */
     padding: 0 15px;
-    box-sizing: border-box; 
-    display: flex; 
-    flex-direction: column; 
-    gap: 15px;
-  }
-  
-  #about .col-md-4.col-sm-12 {
-    width: 100%; 
-    padding: 0 15px; 
     box-sizing: border-box;
-    margin-top: 15px; 
-    text-align: left;
-    overflow: hidden;
+    display: flex; /* Flexbox layout for the columns */
+    flex-direction: column; /* Stack columns vertically on small screens */
+    gap: 15px; /* Space between the columns */
+    overflow-x: hidden; /* Prevent horizontal overflow */
   }
   
+  #about .col-md-4.col-sm-12,
   #about .col-md-8 {
-    width: 100%; 
+    width: 100%;  /* Make sure columns take full width on mobile */
     padding: 0 15px; 
     box-sizing: border-box;
-    margin-top: 15px; 
+    margin-top: 15px;
     text-align: left;
-    overflow: hidden;
+    overflow: hidden; /* Prevent elements from overflowing */
   }
   
   #about .col-md-8 img {
-    width: 100%; 
-    height: auto;
-    object-fit: cover;
+    width: 100%; /* Ensure the image takes full width of its container */
+    height: auto; /* Adjust the height based on aspect ratio */
+    object-fit: cover; /* Keep image proportions intact */
     display: block;
-    margin: 0 auto;
-  }
-  
-  #about .col-md-4 {
-    width: 100%; 
-    padding: 0 15px; 
-    box-sizing: border-box;
-    margin-top: 15px; 
-    text-align: left;
-    overflow: hidden;
+    margin: 0 auto; /* Center the image horizontally */
   }
   
   #about .col-md-4 p {
-    font-size: 16px;
+    font-size: 16px; /* Adjust font size */
     margin: 0;
     padding-left: 15px;
     padding-right: 15px;
-    width: 100%; 
+    width: 100%;
     line-height: 1.6;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -794,8 +779,8 @@ footer .footer-copyright {
   }
   
   #about hr {
-    width: 50px; 
-    margin: 10px auto;
+    width: 50px; /* Narrower HR for mobile */
+    margin: 10px auto; /* Center HR and add space around it */
   }
   
   #about ul {
