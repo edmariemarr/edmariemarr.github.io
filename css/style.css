@@ -490,10 +490,10 @@ footer .footer-copyright {
 
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between; /* This pushes items to opposite ends */
+    align-items: center;  /* Vertically centers the items */
     width: 100%;
-    padding: 0 15px;
-    align-items: center; 
+    padding: 0 15px; 
   }
 
   /*.navbar-default .navbar-header img {
@@ -502,10 +502,11 @@ footer .footer-copyright {
   }*/
 
   .navbar-toggle {
-    font-size: 32px; 
-    padding: 12px; 
-    margin-left: auto; 
+    font-size: 32px; /* Increase the size of the hamburger icon */
+    padding: 12px; /* Increase the padding for a larger clickable area */
+    margin-left: auto; /* Pushes the hamburger to the right */
     z-index: 1000;
+    position: relative;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
