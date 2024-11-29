@@ -574,12 +574,12 @@ footer .footer-copyright {
     display: block; /* Remove extra space below image */
   }
 
-  /* Optional: Style for text section below the image (if applicable) */
+  /*
   #about .col-md-4 {
-    width: 100%; /* Full width on mobile */
-    text-align: center; /* Center the text */
-    padding: 0 15px; /* Optional: Padding for text section */
-  }
+    width: 100%;
+    text-align: center; 
+    padding: 0 15px; 
+  }*/
 
   footer {
     text-align: center;
