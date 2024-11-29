@@ -525,7 +525,7 @@ footer .footer-copyright {
 
   /* Middle bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    top: 8px; /* Adjust top distance to center it properly */
+    top: 7px; /* Adjust top distance to center it properly */
     width: 20px; /* Shorter middle bar */
   }
 
