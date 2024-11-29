@@ -574,10 +574,31 @@ footer .footer-copyright {
     background-color: transparent;
   }
 
+  /* Center the collapse menu */
   .navbar-default .navbar-collapse {
     text-align: center;
     align-items: center;
+    width: 100%;
+    position: absolute; /* Position absolutely to center the menu */
+    top: 50%; /* Vertical centering */
+    left: 50%; /* Horizontal centering */
+    transform: translate(-50%, -50%); /* Adjust position to be exactly centered */
+    display: none; /* Hidden by default */
+    flex-direction: column;
   }
+
+  /* Make sure navbar items are centered */
+  .navbar-default .navbar-nav {
+    display: flex;
+    justify-content: center; /* Ensure the items are centered */
+    flex-direction: column; /* Stack them vertically */
+    width: 100%; /* Full width to align the items to the center */
+  }
+
+  /*.navbar-default .navbar-collapse {
+    text-align: center;
+    align-items: center;
+  }*/
 
   .navbar-default .navbar-nav {
     display: inline-block;
