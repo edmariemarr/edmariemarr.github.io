@@ -525,13 +525,13 @@ footer .footer-copyright {
 
   /* Middle bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    top: 12px; /* Space it below the top bar */
+    top: 10px; /* Adjust top distance to center it */
     width: 35px; /* Shorter middle bar */
   }
 
   /* Bottom bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
-    top: 24px; /* Space it below the middle bar */
+    top: 20px; /* Adjust top distance to center it */
     width: 50px; /* Long bottom bar */
   }
 
