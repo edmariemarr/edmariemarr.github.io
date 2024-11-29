@@ -485,8 +485,7 @@ footer .footer-copyright {
   /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
-
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
   
   .navbar-default .navbar-header {
     display: flex;
@@ -496,30 +495,90 @@ footer .footer-copyright {
     padding: 0 15px; 
   }
 
-  /*.navbar-toggle {
-    font-size: 50px; 
-    padding: 12px; 
-    margin-left: auto; 
-    z-index: 1000;
-  }*/
-
+  /* Adjusted font size for the hamburger button */
   .navbar-toggle {
-    font-size: 60px;  /* Increase the font size for the hamburger button */
-    padding: 14px;    /* Increase padding to ensure the button isn't too tight */
+    font-size: 40px;  /* Changed from 60px to 40px for better proportion */
+    padding: 12px;    /* Padding remains the same */
     margin-left: auto;
     z-index: 1000;
   }
 
-  /*.navbar-default .navbar-toggle .icon-bar {
-    background: #bdc3c7;
+  /* Adjusted styles for the hamburger icon bars */
+  .navbar-default .navbar-toggle .icon-bar {
+    background: #bdc3c7;  /* Color of the bars */
     border-color: transparent;
-  }*/
+    height: 4px;           /* Changed from 6px to 4px to make the bars thinner */
+    width: 40px;           /* Default width for the middle bar */
+    margin: 6px auto;      /* Margin between bars */
+  }
+
+  /* Top and bottom bars (long) */
+  .navbar-default .navbar-toggle .icon-bar:nth-child(1), /* Top bar */
+  .navbar-default .navbar-toggle .icon-bar:nth-child(3) { /* Bottom bar */
+    width: 50px;  /* Changed from 35px to 50px to make them longer */
+  }
+
+  /* Middle bar (short) */
+  .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
+    width: 35px;  /* Changed from 35px to 35px (keeps it short) */
+  }
+
+  /* Hover/focus effect for the button */
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-collapse {
+    text-align: center;
+  }
+
+  /* Other untouched styles (they remain as-is) */
+  .navbar-default .navbar-nav {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1, h2, h3 {
+    font-size: 32px; /* Preserved size for headers */
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .col-md-4 {
+    padding-top: 42px;
+  }
+
+  .social-icon {
+    text-align: center;
+  }
+}
+
+  /*@media (max-width: 767px) {
+  
+  .navbar-default .navbar-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    padding: 0 15px; 
+  }
+
+  .navbar-toggle {
+    font-size: 60px;
+    padding: 14px; 
+    margin-left: auto;
+    z-index: 1000;
+  }
 
   .navbar-default .navbar-toggle .icon-bar {
     background: #bdc3c7;
     border-color: transparent;
-    height: 6px;       /* Increase the height of the bars */
-    width: 35px;       /* Increase the width of the bars */
+    height: 6px;    
+    width: 35px; 
   }
 
   .navbar-default .navbar-toggle:hover,
@@ -592,7 +651,7 @@ footer .footer-copyright {
   .social-icon {
     text-align: center;
   }
-}
+}*/
 
 
 
