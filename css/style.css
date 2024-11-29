@@ -487,63 +487,73 @@ footer .footer-copyright {
 -----------------------------------------*/
 @media (max-width: 767px) {
 
-  /* Navbar header layout remains unchanged */
+  /* Navbar header layout */
   .navbar-default .navbar-header {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    padding: 0 15px; 
+    padding: 0 15px;
   }
 
-  /* Hamburger button adjustments: smaller size and right-aligned */
+  /* Adjustments for hamburger button */
   .navbar-toggle {
-    font-size: 40px;  /* Slightly smaller font size */
-    padding: 12px;    /* Padding around the button */
-    margin-left: auto; /* Align the hamburger button to the right */
-    margin-right: 20px;  /* Increase space between hamburger and favicon */
-    z-index: 1000;    /* Keeps the hamburger button on top */
+    font-size: 40px; /* Set the size of the hamburger icon */
+    padding: 12px;
+    margin-left: auto; /* Pushes hamburger to the right */
+    margin-right: 20px; /* Increases space between hamburger and favicon */
+    position: relative;
+    z-index: 1000; /* Ensure it's above other elements */
   }
 
-  /* Style the individual bars inside the hamburger icon */
+  /* Hamburger icon bars */
   .navbar-default .navbar-toggle .icon-bar {
-    background: #000;  /* Changed color to black */
+    background: #000; /* Set bars color to black */
     border-color: transparent;
-    height: 3px;   /* Reduced thickness to 3px for a thinner appearance */
-    width: 40px;   /* Default width for the middle bar */
-    margin: 6px auto; /* Center spacing between bars */
+    height: 3px; /* Thinner bars */
+    position: absolute; /* Absolute positioning for better alignment */
+    width: 40px; /* Default width */
+    right: 0; /* Align bars to the right side of the hamburger */
+    transition: all 0.3s ease; /* Smooth transition for hover/focus effects */
   }
 
-  /* Top and bottom bars (longer), align towards the right */
-  .navbar-default .navbar-toggle .icon-bar:nth-child(1), /* Top bar */
-  .navbar-default .navbar-toggle .icon-bar:nth-child(3) { /* Bottom bar */
-    width: 50px;  /* Long top and bottom bars */
+  /* Top bar */
+  .navbar-default .navbar-toggle .icon-bar:nth-child(1) {
+    top: 0; /* Align the top bar to the top */
+    width: 50px; /* Long top bar */
   }
 
-  /* Middle bar (shorter), align towards the right */
+  /* Middle bar */
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
-    width: 35px;  /* Shorter middle bar */
+    top: 12px; /* Space it below the top bar */
+    width: 35px; /* Shorter middle bar */
   }
 
-  /* Hover/focus effect for the hamburger button */
+  /* Bottom bar */
+  .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
+    top: 24px; /* Space it below the middle bar */
+    width: 50px; /* Long bottom bar */
+  }
+
+  /* Hover/focus effect */
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
     background-color: transparent;
   }
 
-  /* Centering collapse content */
+  /* Navbar collapse text centering */
   .navbar-default .navbar-collapse {
-    text-align: center; 
+    text-align: center;
   }
 
-  /* Center the navbar items, no changes */
+  /* Adjust navbar item layout */
   .navbar-default .navbar-nav {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* Font sizes for headers (unchanged) */
+  /* Font sizes for headers */
   h1 {
     font-size: 32px;
   }
@@ -562,12 +572,11 @@ footer .footer-copyright {
     line-height: 35px;
   }
 
-  /* Margin for navbar */
+  /* Navbar margin adjustments */
   .navbar-default {
     margin-top: 0px;
   }
 
-  /* Padding adjustments for navbar items */
   .navbar-default .navbar-nav li a {
     padding-left: 10px;
     padding-right: 10px;
@@ -576,19 +585,19 @@ footer .footer-copyright {
   /* About section layout */
   #about .container {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
-    padding: 0 15px; 
+    padding: 0 15px;
   }
 
   #about .col-md-8 img {
-    width: 100%; 
+    width: 100%;
     height: auto;
-    object-fit: cover; 
-    object-position: center; 
-    display: block; 
+    object-fit: cover;
+    object-position: center;
+    display: block;
   }
 
   /* Footer styling */
@@ -600,11 +609,11 @@ footer .footer-copyright {
     padding-top: 42px;
   }
 
-  /* Social icon */
   .social-icon {
     text-align: center;
   }
 }
+
 
   /*@media (max-width: 767px) {
   
