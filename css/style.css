@@ -532,15 +532,6 @@ footer .footer-copyright {
     margin-right: 20px; 
   }
 
-  /*.navbar-default .navbar-toggle {
-    font-size: 50px;
-    padding: 12px;
-    margin-left: auto;
-    position: relative;
-    z-index: 1000;
-  }*/
-
-  /* Adjusting navbar toggle button positioning */
   .navbar-default .navbar-toggle {
     font-size: 50px;
     padding: 12px;
@@ -557,40 +548,26 @@ footer .footer-copyright {
     margin-right: 10px;
   }
 
-  /*.navbar-default .navbar-toggle .icon-bar {
-    background: #020101; 
-    border-color: transparent;
-    height: 2px; 
-    position: absolute;
-    width: 50px; 
-    right: 0;
-    transition: all 0.3s ease; 
-  }*/
-
-  /* Adjust icon-bar to be flush with the right of the navbar-toggle */
   .navbar-default .navbar-toggle .icon-bar {
     background: #020101; 
     border-color: transparent;
     height: 2px; 
     position: absolute;
-    width: 40px;  /* Keeps the width consistent for all bars */
-    right: 0;     /* Aligns the icon-bar to the right side of the toggle button */
+    width: 40px;
+    right: 0;  
     transition: all 0.3s ease; 
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(1) {
     top: 0px;
-    /*width: 40px; */
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(2) {
     top: 7px; 
-    /*width: 40px;*/
   }
 
   .navbar-default .navbar-toggle .icon-bar:nth-child(3) {
     top: 18px; 
-    /*width: 40px;*/
   }
 
   .navbar-default .navbar-toggle:hover,
