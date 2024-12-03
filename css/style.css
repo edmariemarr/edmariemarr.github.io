@@ -43,7 +43,7 @@ h4 {
 }
 
 p {
-    color: #2b2d30;
+    color: #353638;
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
@@ -63,7 +63,7 @@ strong {
 }
 
 a, i, b {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn-success:focus {
