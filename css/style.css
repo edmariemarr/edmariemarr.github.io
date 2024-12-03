@@ -43,8 +43,7 @@ h4 {
 }
 
 p {
-    /*color: #777;*/
-    color: black;
+    color: #2b2d30;
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
@@ -333,13 +332,13 @@ a:hover, a:active, a:focus {
 }
 
 #about .two-column-container {
-  display: flex;                 /* Use flexbox for side-by-side layout */
-  justify-content: space-between; /* Optional: Adds space between the columns */
+  display: flex;             
+  justify-content: space-between;
 }
 
 #about .two-column-container .column {
-  width: 48%;           /* Column width (adjust as necessary) */
-  padding: 10px;        /* Padding inside each column */
+  width: 48%;     
+  padding: 10px;     
 }
 
 /*---------------------------------------
