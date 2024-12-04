@@ -421,8 +421,6 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
    Pagination section              
 -----------------------------------------*/
-
-/* Pagination Container */
 .pagination {
   display: flex;
   justify-content: space-between; /* Space between the links */
@@ -435,7 +433,7 @@ a:hover, a:active, a:focus {
 /* Styling for the "Previous" link */
 .pagination .previous {
   display: flex;
-  flex-direction: column; /* Stack title below the "Prev" link */
+  flex-direction: column; /* Stack title on top of the link */
   align-items: flex-start; /* Align to the left */
   text-decoration: none;
   background-color: #ffffff;
@@ -445,7 +443,7 @@ a:hover, a:active, a:focus {
 }
 
 .pagination .previous .page-title {
-  margin-top: 5px; /* Space between "Prev" and the title */
+  margin-bottom: 5px; /* Space between title and "Prev" link */
 }
 
 .pagination .previous:hover {
@@ -455,7 +453,7 @@ a:hover, a:active, a:focus {
 /* Styling for the "Next" link */
 .pagination .next {
   display: flex;
-  flex-direction: column; /* Stack title below the "Next" link */
+  flex-direction: column; /* Stack title on top of the link */
   align-items: flex-end; /* Align to the right */
   text-decoration: none;
   background-color: #ffffff;
@@ -465,11 +463,15 @@ a:hover, a:active, a:focus {
 }
 
 .pagination .next .page-title {
-  margin-top: 5px; /* Space between "Next" and the title */
+  margin-bottom: 5px; /* Space between title and "Next" link */
 }
 
 .pagination .next:hover {
   background-color: #f0f0f0; /* Slight hover effect */
+}
+
+.pagination .page-title {
+  font-size: 24px; 
 }
 
 /* Hover effect for both Previous and Next links */
@@ -477,6 +479,58 @@ a:hover, a:active, a:focus {
 .pagination .next:hover {
   color: black; /* Change text color when hovering */
 }
+/*
+.pagination {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.pagination .previous {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.pagination .previous .page-title {
+  margin-top: 5px; 
+}
+
+.pagination .previous:hover {
+  background-color: #f0f0f0; 
+}
+
+.pagination .next {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-end; 
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.pagination .next .page-title {
+  margin-top: 5px; 
+}
+
+.pagination .next:hover {
+  background-color: #f0f0f0; 
+}
+
+.pagination .previous:hover,
+.pagination .next:hover {
+  color: black; 
+}*/
 
 /*---------------------------------------
    Footer section              
@@ -706,7 +760,7 @@ footer .footer-copyright {
     margin-bottom: 10px; 
   }
 
-  .pagination {
+ .pagination {
     flex-direction: column;
     align-items: center; 
     padding: 0; 
