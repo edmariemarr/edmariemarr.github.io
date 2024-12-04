@@ -452,7 +452,7 @@ a:hover, a:active, a:focus {
 
 .pagination .next {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column-reverse; 
   align-items: flex-end; 
   text-decoration: none;
   background-color: #ffffff;
@@ -705,12 +705,6 @@ footer .footer-copyright {
     width: 100%; 
     margin-bottom: 10px; 
   }
-
- .pagination {
-    flex-direction: column;
-    align-items: center; 
-    padding: 0; 
-}
 
 .pagination {
   flex-direction: row; 
