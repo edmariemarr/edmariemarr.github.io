@@ -35,7 +35,8 @@ h2 {
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 28px;
+  font-weight: 500;
 }
 
 h4 {
@@ -118,11 +119,7 @@ a:hover, a:active, a:focus {
 }
 
 #portfolio,
-#about,
-#blog,
-#contact,
-#single-project,
-#blog-single-post {
+#about {
   padding-top: 80px;
   padding-bottom: 120px;
   text-align: left !important;
@@ -400,41 +397,6 @@ a:hover, a:active, a:focus {
 #portfolio .text-center {
   padding-top: 62px;
 }
-
-/*---------------------------------------
-   Single Project section              
------------------------------------------*/
-
-#single-project {
-  text-align: left !important;
-}
-
-#single-project .col-md-12,
-#single-project .col-md-6,
-#single-project .col-md-4 {
-  padding-left: 0px;
-  padding-bottom: 22px;
-  text-align: left !important;
-}
-
-#single-project .col-md-12 {
-  padding-top: 42px;
-}
-
-#single-project .text-center strong {
-  display: block;
-  padding-top: 12px;
-  text-align: left !important;
-}
-
-#single-project a {
-  color: #555;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding-left: 14px;
-  text-align: left !important;
-}
-
 /*---------------------------------------
    Pagination section              
 -----------------------------------------*/
@@ -660,7 +622,6 @@ footer .footer-copyright {
 
   h1 {
     font-size: 32px;
-    /*line-height: 48px;*/
     line-height: 1.96rem;
     font-style: normal;
     font-weight: 700;
@@ -670,6 +631,7 @@ footer .footer-copyright {
   h2 {
     font-size: 32px;
     line-height: 48px;
+    font-weight: 500;
   }
 
   h3 {
@@ -678,7 +640,6 @@ footer .footer-copyright {
 
   .section-title h2 {
     font-size: 22px;
-    /*line-height: 35px;*/
     line-height: 1.96rem;
   }
 
