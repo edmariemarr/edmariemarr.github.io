@@ -424,22 +424,26 @@ a:hover, a:active, a:focus {
 
 .pagination {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 20px;
-  align-items: center;
-  flex-direction: column; 
 }
 
 .pagination .previous {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
   padding: 10px 20px;
   text-decoration: none;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   border-radius: 5px;
-  margin-bottom: 10px; 
+}
+
+.pagination .previous .page-title {
+  margin-left: 10px; 
 }
 
 .pagination .previous:hover {
@@ -454,20 +458,27 @@ a:hover, a:active, a:focus {
 }
 
 .pagination .next {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   padding: 10px 20px;
   text-decoration: none;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   border-radius: 5px;
-  margin-top: 10px; 
+}
+
+.pagination .next .page-title {
+  margin-right: 10px;
 }
 
 .pagination .next:hover {
   background-color: #f0f0f0; 
 }
 
+.pagination .previous:hover,
 .pagination .next:hover {
-  color: black;
+  color: black; 
 }
 
 /*---------------------------------------
