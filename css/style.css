@@ -421,7 +421,7 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
    Pagination section              
 -----------------------------------------*/
-
+/*
 .pagination {
   display: flex;
   justify-content: space-between; 
@@ -479,6 +479,62 @@ a:hover, a:active, a:focus {
 .pagination .previous:hover,
 .pagination .next:hover {
   color: black; 
+}*/
+
+/* Pagination Container */
+.pagination {
+  display: flex;
+  justify-content: space-between; /* Space between the links */
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+/* Styling for the "Previous" link */
+.pagination .previous {
+  display: flex;
+  flex-direction: column; /* Stack title below the "Prev" link */
+  align-items: flex-start; /* Align to the left */
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.pagination .previous .page-title {
+  margin-top: 5px; /* Space between "Prev" and the title */
+}
+
+.pagination .previous:hover {
+  background-color: #f0f0f0; /* Slight hover effect */
+}
+
+/* Styling for the "Next" link */
+.pagination .next {
+  display: flex;
+  flex-direction: column; /* Stack title below the "Next" link */
+  align-items: flex-end; /* Align to the right */
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.pagination .next .page-title {
+  margin-top: 5px; /* Space between "Next" and the title */
+}
+
+.pagination .next:hover {
+  background-color: #f0f0f0; /* Slight hover effect */
+}
+
+/* Hover effect for both Previous and Next links */
+.pagination .previous:hover,
+.pagination .next:hover {
+  color: black; /* Change text color when hovering */
 }
 
 /*---------------------------------------
@@ -743,55 +799,31 @@ footer .footer-copyright {
 }*/
 
 .pagination {
-  display: flex;
-  justify-content: space-between; 
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  flex-direction: row; /* Arrange links horizontally on mobile */
+  align-items: flex-end; /* Align items at the bottom */
+  justify-content: space-between; /* Space out the links */
   padding: 0 20px;
 }
 
+.pagination .previous,
+.pagination .next {
+  flex-direction: column; /* Stack the title under the link */
+  align-items: center; /* Center both link and title */
+  width: 45%; /* Each link should take up about half of the screen width */
+  text-align: center; /* Center text inside each link */
+}
+
 .pagination .previous {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
-}
-
-.pagination .previous .page-title {
-  margin-top: 5px; 
-}
-
-.pagination .previous:hover {
-  background-color: #f0f0f0; 
+  margin-left: 0; /* Align "Previous" to the left */
 }
 
 .pagination .next {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; 
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
+  margin-left: auto; /* Align "Next" to the right */
 }
 
-.pagination .next .page-title {
-  margin-top: 5px; 
-}
-
-.pagination .next:hover {
-  background-color: #f0f0f0;
-}
-
-.pagination .previous:hover,
-.pagination .next:hover {
-  color: black;
+.pagination .page-title {
+  margin-top: 5px; /* Space between link and page title */
+  font-size: 14px; /* Adjust title font size for mobile */
 }
 
   footer {
