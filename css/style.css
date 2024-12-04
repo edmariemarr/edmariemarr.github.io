@@ -707,52 +707,19 @@ footer .footer-copyright {
     margin-bottom: 10px; 
   }
 
-  .pagination {
-    display: flex;
-    flex-direction: column;  /* Stack buttons vertically */
-    align-items: center;
-    padding: 0;
-  }
 
-  /* When either .previous or .next is the only element, center it */
-  .pagination .previous, 
-  .pagination .next {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .pagination .previous {
-    width: 80%;  /* Adjust width for mobile */
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .pagination .next {
-    width: 80%;  /* Adjust width for mobile */
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  /* Ensure pagination stays centered if only one button is visible */
-  .pagination .previous:not(:empty) {
-    margin-right: auto; /* Only apply this if previous exists */
-  }
-
-  .pagination .next:not(:empty) {
-    margin-left: auto; /* Only apply this if next exists */
-  }
-  
-  .pagination .page-title {
-    margin-top: 5px;
-    font-size: 24px;
-  }
-
-/*.pagination {
+.pagination {
   flex-direction: row; 
   align-items: flex-end; 
   justify-content: space-between; 
   padding: 0 20px;
 }
+
+.pagination .previous,
+  .pagination .next {
+    margin-left: auto;
+    margin-right: auto; 
+  }
 
 .pagination .previous {
   display: flex;
@@ -776,7 +743,7 @@ footer .footer-copyright {
 .pagination .page-title {
   margin-top: 5px;
   font-size: 24px; 
-}*/
+}
 
   footer {
     text-align: center;
