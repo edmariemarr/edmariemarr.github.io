@@ -450,7 +450,7 @@ a:hover, a:active, a:focus {
   border-radius: 5px;
   padding: 10px 20px;
   margin-left: 0;
-  margin-right: 110px; 
+  margin-right: 200px; 
 }
 
 .pagination .previous .page-title {
@@ -471,7 +471,7 @@ a:hover, a:active, a:focus {
   border-radius: 5px;
   padding: 10px 20px;
   margin-left: auto;
-  margin-right: 110px;
+  margin-right: 200px;
 }
 
 .pagination .next .page-title {
@@ -656,7 +656,6 @@ footer .footer-copyright {
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0em;
-    }
   }
 
   h2 {
