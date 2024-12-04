@@ -440,6 +440,7 @@ a:hover, a:active, a:focus {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 10px 20px;
+  margin-left: 0;
 }
 
 .pagination .previous .page-title {
@@ -459,6 +460,7 @@ a:hover, a:active, a:focus {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 10px 20px;
+  margin-left: auto;
 }
 
 .pagination .next .page-title {
@@ -529,7 +531,6 @@ footer .footer-copyright {
     text-decoration: none;
     transition: all 0.4s ease-in-out;
     text-align: center;
-    /*vertical-align: middle;*/
     vertical-align: right;
     position: relative;
     margin: 22px 12px 10px 12px;
@@ -713,39 +714,24 @@ footer .footer-copyright {
   padding: 0 20px;
 }
 
-/*.pagination {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  padding: 0;
-}*/
-
 .pagination .previous {
   display: flex;
-  flex-direction: column;  /* Keep Prev button as it is */
+  flex-direction: column;
   align-items: center;
-  width: 80%;  /* Adjust width for mobile */
+  width: 80%;  
   text-align: center;
-  margin: 10px 0; /* Add margin between buttons */
+  margin: 10px 0;
 }
-
-/*.pagination .previous {
-  margin-left: 0; 
-}*/
 
 .pagination .next {
   display: flex;
-  flex-direction: column-reverse; /* Reverse only the Next button for mobile */
+  flex-direction: column-reverse; 
   align-items: center;
-  width: 80%;  /* Adjust width for mobile */
+  width: 80%;  
   text-align: center;
-  margin: 10px 0; /* Add margin between buttons */
+  margin: 10px 0; 
+  margin-left: auto;
 }
-
-/*
-.pagination .next {
-  margin-left: auto; 
-}*/
 
 .pagination .page-title {
   margin-top: 5px;
