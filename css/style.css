@@ -3,7 +3,7 @@ body {
 		background: #ffffff;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-		font-weight: 300;
+		font-weight: 400;
     font-size: 16px;
     overflow-x: hidden;
     text-align: left !important;
@@ -15,7 +15,6 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   font-style: normal;
-  font-weight: 300;
   letter-spacing: 0.5px;
 }
 
@@ -47,14 +46,15 @@ h4 {
 p {
     color: #474747;
     font-size: 16px;
-    font-weight: 300;
-    line-height: 26px;
+    font-weight: 400;
+    /*line-height: 26px;*/
+    line-height: 1.75rem;
     letter-spacing: 0.2px;
 }
 
 ol, ul {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.96px;
     line-height: 1.75rem;
     letter-spacing: 0.2px;
@@ -280,7 +280,7 @@ a:hover, a:active, a:focus {
 #about p {
   font-size: 16px !important; 
   line-height: 1.75rem;
-  font-weight: 300 !important;
+  font-weight: 400 !important;
   font-style: normal !important; 
   word-wrap: break-word;
   margin: 0;
@@ -318,7 +318,7 @@ a:hover, a:active, a:focus {
 #about ul {
   padding-left: 22px;
   text-align: left !important;
-  line-height: 1.6;
+  line-height: 1.75rem;
   word-wrap: break-word;
   font-size: 16px;
 }
@@ -326,7 +326,7 @@ a:hover, a:active, a:focus {
 #about ul li {
   color: #777;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   padding-top: 2px;
   padding-bottom: 2px;
   text-align: left;
@@ -651,7 +651,8 @@ footer .footer-copyright {
 
   h1 {
     font-size: 32px;
-    line-height: 48px;
+    /*line-height: 48px;*/
+    line-height: 1.75rem;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0em;
@@ -668,7 +669,8 @@ footer .footer-copyright {
 
   .section-title h2 {
     font-size: 22px;
-    line-height: 35px;
+    /*line-height: 35px;*/
+    line-height: 1.75rem;
   }
 
   .navbar-default {
