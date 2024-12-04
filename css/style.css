@@ -412,7 +412,7 @@ a:hover, a:active, a:focus {
 }
 
 .pagination .page-title {
-  font-size: 14px;
+  font-size: 18px;
   color: black;
   margin-top: 5px;
   margin-left: 10px; 
@@ -717,6 +717,7 @@ footer .footer-copyright {
 
 .pagination .page-title {
     color: black; 
+    font-size: 18px;
 }
 
   footer {
