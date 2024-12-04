@@ -714,7 +714,6 @@ footer .footer-copyright {
     padding: 0 20px;
   }
 
-  /* When either .previous or .next is the only element, center it */
   .pagination .previous, 
   .pagination .next {
     margin-left: auto;
@@ -722,61 +721,29 @@ footer .footer-copyright {
   }
 
   .pagination .previous {
-    width: 80%;  /* Adjust width for mobile */
+    width: 80%; 
     text-align: center;
     margin: 10px 0;
   }
 
   .pagination .next {
-    width: 80%;  /* Adjust width for mobile */
+    width: 80%;  
     text-align: center;
     margin: 10px 0;
   }
 
-  /* Ensure pagination stays centered if only one button is visible */
   .pagination .previous:not(:empty) {
-    margin-right: auto; /* Only apply this if previous exists */
+    margin-right: auto;
   }
 
   .pagination .next:not(:empty) {
-    margin-left: auto; /* Only apply this if next exists */
+    margin-left: auto;
   }
   
   .pagination .page-title {
     margin-top: 5px;
     font-size: 24px;
   }
-
-/*.pagination {
-  flex-direction: row; 
-  align-items: flex-end; 
-  justify-content: space-between; 
-  padding: 0 20px;
-}
-
-.pagination .previous {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;  
-  text-align: center;
-  margin: 10px 0;
-}
-
-.pagination .next {
-  display: flex;
-  flex-direction: column-reverse; 
-  align-items: center;
-  width: 80%;  
-  text-align: center;
-  margin: 10px 0; 
-  margin-left: auto;
-}
-
-.pagination .page-title {
-  margin-top: 5px;
-  font-size: 24px; 
-}*/
 
   footer {
     text-align: center;
