@@ -9,7 +9,6 @@ body {
     text-align: left !important;
 }
 
-
 /*---------------------------------------
     Typography              
 -----------------------------------------*/
@@ -71,7 +70,6 @@ a, i, b {
   border-color: transparent;
 }
 
-
 /*---------------------------------------
     General               
 -----------------------------------------*/
@@ -129,7 +127,6 @@ a:hover, a:active, a:focus {
   font-weight: 400;
   letter-spacing: 4px;
 }
-
 
 /*---------------------------------------
     Main Navigation             
@@ -202,8 +199,6 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
-
-
 /*---------------------------------------
     Home section              
 -----------------------------------------*/
@@ -229,8 +224,6 @@ a:hover, a:active, a:focus {
   width: 82px;
   margin-top: 32px;
 }
-
-
 
 /*---------------------------------------
    About section              
@@ -391,7 +384,50 @@ a:hover, a:active, a:focus {
   padding-top: 62px;
 }
 
+/*---------------------------------------
+   Pagination section              
+-----------------------------------------*/
 
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px; 
+}
+
+.pagination a {
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+.pagination a:hover {
+  background-color: #ffffff;
+}
+
+.pagination .next {
+  color: #777;
+}
+
+.pagination .next:hover {
+  color: black; 
+}
+
+.pagination .page-title {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  color: black;
+}
+
+.pagination .next:hover + .page-title {
+  color: black;
+}
 
 /*---------------------------------------
    Single Project section              
@@ -427,7 +463,6 @@ a:hover, a:active, a:focus {
   text-align: left !important;
 }
 
-
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
@@ -455,7 +490,6 @@ footer hr {
 footer .footer-copyright {
   padding-top: 16px;
 }
-
 
 /*---------------------------------------
    Social icon             
@@ -656,6 +690,28 @@ footer .footer-copyright {
     width: 100%; 
     margin-bottom: 10px; 
   }
+
+  .pagination {
+    flex-direction: column;
+    align-items: center; 
+    padding: 0; 
+}
+
+.pagination a {
+    margin-bottom: 10px; 
+    width: 80%; 
+    text-align: center; 
+    padding: 12px 20px;
+}
+
+.pagination .previous,
+.pagination .next {
+    color: #777;
+}
+
+.pagination .page-title {
+    color: black; 
+}
 
   footer {
     text-align: center;
