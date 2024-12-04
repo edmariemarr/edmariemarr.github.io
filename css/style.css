@@ -48,15 +48,14 @@ p {
     color: #474747;
     font-size: 16px;
     font-weight: 300;
-    /*line-height: 26px;*/
-    line-height: 1.75rem;
+    line-height: 26px;
     letter-spacing: 0.2px;
 }
 
 ol, ul {
     font-size: 16px;
     font-weight: 300;
-    /*line-height: 1.96px;*/
+    line-height: 1.96px;
     line-height: 1.75rem;
     letter-spacing: 0.2px;
 }
