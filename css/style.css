@@ -735,6 +735,11 @@ footer .footer-copyright {
   color: black; 
   font-size: 18px;
 }
+.pagination {
+  flex-direction: column;
+  align-items: center; 
+  padding: 0; 
+}
 
   footer {
     text-align: center;
