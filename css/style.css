@@ -713,24 +713,42 @@ footer .footer-copyright {
   padding: 0 20px;
 }
 
-.pagination .previous,
-.pagination .next {
+/*.pagination {
+  display: flex;
   flex-direction: column; 
-  align-items: center; 
-  width: 45%; 
-  text-align: center; 
-}
+  align-items: center;
+  padding: 0;
+}*/
 
 .pagination .previous {
-  margin-left: 0; 
+  display: flex;
+  flex-direction: column;  /* Keep Prev button as it is */
+  align-items: center;
+  width: 80%;  /* Adjust width for mobile */
+  text-align: center;
+  margin: 10px 0; /* Add margin between buttons */
 }
+
+/*.pagination .previous {
+  margin-left: 0; 
+}*/
 
 .pagination .next {
-  margin-left: auto; 
+  display: flex;
+  flex-direction: column-reverse; /* Reverse only the Next button for mobile */
+  align-items: center;
+  width: 80%;  /* Adjust width for mobile */
+  text-align: center;
+  margin: 10px 0; /* Add margin between buttons */
 }
 
+/*
+.pagination .next {
+  margin-left: auto; 
+}*/
+
 .pagination .page-title {
-  margin-top: 5px; 
+  margin-top: 5px;
   font-size: 24px; 
 }
 
