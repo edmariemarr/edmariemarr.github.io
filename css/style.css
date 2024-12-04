@@ -759,8 +759,36 @@ footer .footer-copyright {
     width: 100%; 
     margin-bottom: 10px; 
   }
+  
+  .pagination {
+    flex-direction: row; /* Arrange links horizontally on mobile */
+    align-items: flex-end; /* Align items at the bottom */
+    justify-content: space-between; /* Space out the links */
+    padding: 0 20px;
+  }
 
- .pagination {
+  .pagination .previous,
+  .pagination .next {
+    flex-direction: column; /* Stack the title under the link */
+    align-items: center; /* Center both link and title */
+    width: 45%; /* Each link should take up about half of the screen width */
+    text-align: center; /* Center text inside each link */
+  }
+
+  .pagination .previous {
+    margin-left: 0; /* Align "Previous" to the left */
+  }
+
+  .pagination .next {
+    margin-left: auto; /* Align "Next" to the right */
+  }
+
+  .pagination .page-title {
+    margin-bottom: 5px; /* Space between title and link */
+    font-size: 14px; /* Adjust title font size for mobile */
+  }
+
+/* .pagination {
     flex-direction: column;
     align-items: center; 
     padding: 0; 
@@ -792,7 +820,7 @@ footer .footer-copyright {
 .pagination .page-title {
   margin-top: 5px; 
   font-size: 14px; 
-}
+}*/
 
   footer {
     text-align: center;
