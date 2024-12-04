@@ -385,60 +385,6 @@ a:hover, a:active, a:focus {
 }
 
 /*---------------------------------------
-   Pagination section              
------------------------------------------*/
-
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0 20px;
-  align-items: center;
-  flex-direction: column; 
-}
-
-.pagination .previous {
-  padding: 10px 20px;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  margin-bottom: 10px; 
-}
-
-.pagination .previous:hover {
-  background-color: #f0f0f0;
-}
-
-/* Styling for the page title */
-.pagination .page-title {
-  font-size: 14px;
-  color: black;
-  margin-top: 5px;
-  text-align: center; 
-}
-
-/* Styling for the "Next" link */
-.pagination .next {
-  padding: 10px 20px;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  margin-top: 10px; 
-}
-
-.pagination .next:hover {
-  background-color: #f0f0f0; 
-}
-
-.pagination .next:hover {
-  color: black;
-}
-
-/*---------------------------------------
    Single Project section              
 -----------------------------------------*/
 
@@ -470,6 +416,58 @@ a:hover, a:active, a:focus {
   letter-spacing: 1px;
   padding-left: 14px;
   text-align: left !important;
+}
+
+/*---------------------------------------
+   Pagination section              
+-----------------------------------------*/
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  align-items: center;
+  flex-direction: column; 
+}
+
+.pagination .previous {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-bottom: 10px; 
+}
+
+.pagination .previous:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .page-title {
+  font-size: 24px;
+  color: black;
+  margin-top: 5px;
+  text-align: center; 
+}
+
+.pagination .next {
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-top: 10px; 
+}
+
+.pagination .next:hover {
+  background-color: #f0f0f0; 
+}
+
+.pagination .next:hover {
+  color: black;
 }
 
 /*---------------------------------------
