@@ -7,8 +7,8 @@ body {
     font-size: 16px;
     overflow-x: hidden;
     text-align: left !important;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*---------------------------------------
@@ -291,8 +291,8 @@ a:hover, a:active, a:focus {
   word-wrap: break-word;
   margin: 0;
   padding: 0;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   text-align: left !important; 
   
 }
