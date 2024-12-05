@@ -305,7 +305,7 @@ a:hover, a:active, a:focus {
 #about .col-md-4 b, 
 #about .col-md-4 strong {
   font-size: 20px !important;
-  line-height: 1.6;
+  line-height: 20px;
 }
 
 #about .col-md-4 i {
@@ -321,14 +321,14 @@ a:hover, a:active, a:focus {
   margin-top: 42px;
   margin-bottom: 42px;
   text-align: left !important;
-  line-height: 1.6;
+  line-height: 20px;
   word-wrap: break-word;
 }
 
 #about ul {
   padding-left: 22px;
   text-align: left !important;
-  line-height: 1.96rem;
+  line-height: 20px;
   word-wrap: break-word;
   font-size: 16px;
 }
