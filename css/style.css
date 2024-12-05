@@ -390,8 +390,69 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
    Pagination section              
 -----------------------------------------*/
-
 .pagination {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.pagination .previous {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative; 
+  right: 10px; /* Move the Previous button incrementally to the right */
+}
+
+.pagination .previous .page-title {
+  margin-top: 5px;
+}
+
+.pagination .previous:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .next {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  left: 10px; /* Move the Next button incrementally to the left */
+}
+
+.pagination .next .page-title {
+  margin-top: 5px;
+}
+
+.pagination .page-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+.pagination .next:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .previous:hover,
+.pagination .next:hover {
+  color: black;
+}
+
+/*.pagination {
   display: flex;
   justify-content: space-between; 
   width: 100%;
@@ -451,7 +512,7 @@ a:hover, a:active, a:focus {
 .pagination .previous:hover,
 .pagination .next:hover {
   color: black; 
-}
+}*/
 
 /*---------------------------------------
    Footer section              
