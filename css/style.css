@@ -461,6 +461,7 @@ a:hover, a:active, a:focus {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 20px;
+  justify-content: space-between; /* Space the buttons evenly */
 }
 
 .pagination .previous {
@@ -472,8 +473,7 @@ a:hover, a:active, a:focus {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 10px 20px;
-  position: relative;
-  margin-right: 100px; /* This nudge the Previous button incrementally to the right */
+  margin-right: 50px; /* Move the Previous button to the right */
 }
 
 .pagination .previous .page-title {
@@ -493,9 +493,7 @@ a:hover, a:active, a:focus {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 10px 20px;
-  position: relative;
-  margin-left: auto; /* This pushes the Next button to the right */
-  left: -100px; /* This nudge the Next button incrementally to the left */
+  margin-left: 50px; /* Move the Next button to the left */
 }
 
 .pagination .next .page-title {
