@@ -475,7 +475,7 @@ a:hover, a:active, a:focus {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   padding: 10px 20px;
-  margin-left: 200px; /* Move the Previous button to the right */
+  margin-left: 400px; /* Move the Previous button to the right */
 }
 
 .pagination .previous .page-title {
@@ -496,7 +496,7 @@ a:hover, a:active, a:focus {
   border-radius: 5px;
   padding: 10px 20px;
   margin-left: auto; 
-  margin-right: 200px; /* Move the Next button left in increments */
+  margin-right: 400px; /* Move the Next button left in increments */
 }
 
 .pagination .next .page-title {
