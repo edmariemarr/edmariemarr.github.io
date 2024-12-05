@@ -291,6 +291,7 @@ a:hover, a:active, a:focus {
   word-wrap: break-word;
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
   text-align: left !important; 
 }
 
