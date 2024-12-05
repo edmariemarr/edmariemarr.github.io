@@ -473,7 +473,7 @@ a:hover, a:active, a:focus {
   border-radius: 5px;
   padding: 10px 20px;
   position: relative;
-  margin-right: 30px; /* This nudge the Previous button incrementally to the right */
+  margin-right: 60px; /* This nudge the Previous button incrementally to the right */
 }
 
 .pagination .previous .page-title {
@@ -495,7 +495,7 @@ a:hover, a:active, a:focus {
   padding: 10px 20px;
   position: relative;
   margin-left: auto; /* This pushes the Next button to the right */
-  left: -30px; /* This nudge the Next button incrementally to the left */
+  left: -60px; /* This nudge the Next button incrementally to the left */
 }
 
 .pagination .next .page-title {
