@@ -390,59 +390,7 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
    Pagination section              
 -----------------------------------------*/
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0 20px;
-}
 
-.pagination .previous {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
-}
-
-.pagination .previous .page-title {
-  margin-top: 5px;
-}
-
-.pagination .previous:hover {
-  background-color: #f0f0f0;
-}
-
-.pagination .next {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
-}
-
-.pagination .next .page-title {
-  margin-top: 5px;
-}
-
-.pagination .next:hover {
-  background-color: #f0f0f0;
-}
-
-.pagination .previous:hover,
-.pagination .next:hover {
-  color: black;
-}
-
-/*
 .pagination {
   display: flex;
   justify-content: space-between; 
@@ -503,7 +451,7 @@ a:hover, a:active, a:focus {
 .pagination .previous:hover,
 .pagination .next:hover {
   color: black; 
-}*/
+}
 
 /*---------------------------------------
    Footer section              
