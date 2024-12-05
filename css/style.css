@@ -292,7 +292,9 @@ a:hover, a:active, a:focus {
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
+  margin-top: 10px;
   text-align: left !important; 
+  
 }
 
 #about .col-md-4.col-sm-12 p {
