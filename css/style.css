@@ -219,6 +219,9 @@ a:hover, a:active, a:focus {
   background-color: #ffffff;
   color: black;
   text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  margin-top: 62px;
 }
 
 /*---------------------------------------
