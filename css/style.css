@@ -592,7 +592,6 @@ footer .footer-copyright {
     margin-right: auto;
   }
 
-
   h1 {
     font-size: 32px;
     line-height: 1.96rem;
@@ -600,12 +599,6 @@ footer .footer-copyright {
     font-weight: 700;
     letter-spacing: 0em;
   }
-  /*
-  h2 {
-    font-size: 32px;
-    line-height: 48px;
-    font-weight: 500;
-  }*/
   
   h2 {
   font-size: clamp(24px, 6vw, 32px);
@@ -616,11 +609,6 @@ footer .footer-copyright {
 
   h3 {
     font-size: 22px;
-  }
-
-  .section-title h2 {
-    font-size: 22px;
-    line-height: 1.96rem;
   }
 
   .navbar-default {
@@ -659,11 +647,6 @@ footer .footer-copyright {
   #about .section-title {
     text-align: left;
     width: 100%;
-  }
-
-  #about .section-title p {
-    margin: 10px 0; 
-    font-size: 16px; 
   }
 
   #about .two-column-container {
