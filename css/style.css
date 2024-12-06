@@ -209,6 +209,14 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
+.navbar-default .navbar-header .left-container {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  background-color: #ffffff;
+  color: black;
+}
+
 /*---------------------------------------
     Home section              
 -----------------------------------------*/
