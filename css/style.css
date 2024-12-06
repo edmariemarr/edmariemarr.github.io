@@ -592,6 +592,7 @@ footer .footer-copyright {
     margin-right: auto;
   }
 
+
   h1 {
     font-size: 32px;
     line-height: 1.96rem;
@@ -599,11 +600,18 @@ footer .footer-copyright {
     font-weight: 700;
     letter-spacing: 0em;
   }
-
+  /*
   h2 {
     font-size: 32px;
     line-height: 48px;
     font-weight: 500;
+  }*/
+  
+  h2 {
+  font-size: clamp(24px, 6vw, 32px);
+  line-height: 1.5;   
+  font-weight: 500; 
+  letter-spacing: 0.5px;
   }
 
   h3 {
