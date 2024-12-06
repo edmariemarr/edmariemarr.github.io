@@ -45,6 +45,7 @@ h4 {
   line-height: 1.4; 
   margin-bottom: 10px;
   color: black;
+  letter-spacing: 0.5px
 }
 
 p {
@@ -139,10 +140,6 @@ a:hover, a:active, a:focus {
   color: #555;
   font-weight: 400;
   letter-spacing: 4px;
-}
-
-.section-title h3 {
-  background-color: #77;
 }
 
 /*---------------------------------------
