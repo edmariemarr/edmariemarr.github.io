@@ -223,6 +223,13 @@ a:hover, a:active, a:focus {
   transition: all 0.4s ease-in-out;
   margin-top: 10px;
   margin-bottom: 10px;
+  box-sizing: border-box;
+  display: block;
+  padding-bottom: 15px;
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 15px;
+  position: relative;
 }
 
 /*---------------------------------------
