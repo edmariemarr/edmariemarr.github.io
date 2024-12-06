@@ -212,7 +212,7 @@ a:hover, a:active, a:focus {
   background-color: transparent;
 }
 
-.navbar-default .navbar-header .left-container {
+.navbar-default .navbar-header .left-container a {
   font-size: 32px;
   font-weight: 700;
   text-align: left;
