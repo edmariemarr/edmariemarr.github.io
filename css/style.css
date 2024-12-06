@@ -310,6 +310,19 @@ a:hover, a:active, a:focus {
   letter-spacing: 0em;
 }
 
+#about .col-md-4.col-sm-12 .two-column-container .column h4 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#about .col-md-4.col-sm-12 .two-column-container .column b,
+#about .col-md-4.col-sm-12 .two-column-container .column strong {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 #about p {
   font-size: 16px !important; 
   line-height: 20px;
@@ -322,24 +335,6 @@ a:hover, a:active, a:focus {
   margin-top: 10px;
   text-align: left !important; 
   
-}
-
-#about .col-md-4.col-sm-12 p {
-  margin-top: 10px; 
-}
-
-#about .col-md-4 b, 
-#about .col-md-4 strong {
-  font-size: 20px !important;
-  line-height: 20px;
-}
-
-#about .col-md-4 i {
-  font-size: 18px !important;
-}
-
-#about .col-md-4 h1 {
-  margin-bottom: 15px;
 }
 
 #about hr {
