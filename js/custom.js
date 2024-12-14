@@ -4,7 +4,7 @@
     PRE LOADER
   -------------------------------------------------------------------------------*/
 
-  $(window).load(function(){
+  $(window).on('load', function() {
     $('.preloader').fadeOut(1000);   
   });
 
@@ -24,7 +24,6 @@ const observer = new IntersectionObserver((entries, observer) => {
 });
 
 const fadeElements = document.querySelectorAll('.fade-in');
-
 fadeElements.forEach(element => {
   observer.observe(element);
 });
