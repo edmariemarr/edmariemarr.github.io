@@ -12,7 +12,7 @@
     FADE ITEMS
   -------------------------------------------------------------------------------*/
 
-/*const observer = new IntersectionObserver((entries, observer) => {
+const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
       if (entry.isIntersecting) {
           entry.target.classList.add('visible');
@@ -26,33 +26,30 @@
 const fadeElements = document.querySelectorAll('.fade-in');
 fadeElements.forEach(element => {
   observer.observe(element);
-});*/
+});
 
 // Intersection Observer for fade-in effect
-const observer = new IntersectionObserver((entries, observer) => {
-  let allVisible = true;  // Flag to track if all fade-in elements have appeared
-  
+/*const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
+    // If the observed element is in the viewport, apply the visible class
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
-    } else {
-      allVisible = false;  // If any element isn't in view, we know to keep checking
     }
   });
-
-  // Check if all fade-in elements are visible
-  if (allVisible) {
-    // If all fade-in elements are visible, stop observing
-    observer.disconnect(); 
-  }
 }, {
   threshold: 0.5  // Trigger when at least 50% of an element is in view
 });
 
-// Only observe .fade-in elements (not the footer)
+// Get all fade-in elements (excluding the footer)
 const fadeElements = document.querySelectorAll('.fade-in');
 fadeElements.forEach(element => {
-  observer.observe(element);
+  if (element.tagName.toLowerCase() !== 'footer') {  // Exclude footer from being observed
+    observer.observe(element);
+  }
 });
 
-
+// Ensure the footer is visible (do not apply IntersectionObserver to the footer)
+const footer = document.querySelector('footer');
+if (footer) {
+  footer.classList.add('visible');
+}*/
