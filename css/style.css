@@ -110,15 +110,15 @@ html{
 }
 
 a {
-  color: black; /* Default text color */
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  color: #777;
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   text-decoration: underline;
 }
 
 a:hover, a:active, a:focus {
-  color: gray;
+  color: #333;
   outline: none;
   text-decoration: none;
   text-decoration-color: transparent;
