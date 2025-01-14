@@ -398,6 +398,66 @@ a:hover, a:active, a:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  text-decoration: underline; /* Underline by default */
+  text-decoration-color: black; /* Black underline */
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 400px;
+}
+
+.pagination .previous .page-title {
+  margin-top: 5px;
+}
+
+.pagination .previous:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: black; /* Ensure text stays black on hover */
+}
+
+.pagination .next {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  text-decoration: underline; /* Underline by default */
+  text-decoration-color: black; /* Black underline */
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: 400px;
+}
+
+.pagination .next .page-title {
+  margin-top: 5px;
+}
+
+.pagination .next:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: black; /* Ensure text stays black on hover */
+}
+
+.pagination .page-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+/*.pagination {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.pagination .previous {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   text-decoration: none;
   background-color: #ffffff;
   color: rgb(0, 0, 0);
@@ -443,67 +503,6 @@ a:hover, a:active, a:focus {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0em;
-}
-
-/*.pagination {
-  display: flex;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0 20px;
-  justify-content: space-between; 
-}
-
-.pagination .previous {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-left: 400px;
-}
-
-.pagination .previous .page-title {
-  margin-top: 5px;
-}
-
-.pagination .previous:hover {
-  background-color: #f0f0f0;
-}
-
-.pagination .next {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-left: auto; 
-  margin-right: 400px;
-}
-
-.pagination .next .page-title {
-  margin-top: 5px;
-}
-
-.pagination .page-title {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 0em;
-}
-
-.pagination .next:hover {
-  background-color: #f0f0f0;
-}
-
-.pagination .previous:hover,
-.pagination .next:hover {
-  color: black;
 }*/
 
 /*---------------------------------------
