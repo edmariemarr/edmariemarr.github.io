@@ -427,7 +427,7 @@ a:hover, a:active, a:focus {
   flex-direction: column-reverse;
   align-items: flex-end;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: #333;
   color: #777; 
   background-color: #ffffff;
   border-radius: 5px;
