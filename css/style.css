@@ -308,7 +308,7 @@ a:hover, a:active, a:focus {
 
 #about .two-column-container {
   display: flex;             
-  justify-content: absolute;
+  justify-content: center;
 }
 
 #about .two-column-container .column {
