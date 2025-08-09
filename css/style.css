@@ -252,7 +252,6 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     Home section              
 -----------------------------------------*/
-
 #home {
     background-size: cover;
     background-position: center center;
@@ -338,7 +337,6 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
    Footer section              
 -----------------------------------------*/
-
 footer {
     border-top: 1px solid #f0f0f0;
     padding: 100px 0px;
@@ -395,7 +393,7 @@ footer .footer-copyright {
     transform: scale(1.1);
 }
 
-  /*---------------------------------------
+/*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
 @media (max-width: 768px) {
