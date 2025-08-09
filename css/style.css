@@ -262,52 +262,6 @@ a:hover, a:active, a:focus {
 }
 
 /*---------------------------------------
-   About section              
------------------------------------------*/
-#about .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-#about .text-center {
-  padding-bottom: 15px;
-  text-align: left;
-  width: 100%;
-  max-width: 800px;
-}
-
-#about ul {
-  padding-left: 22px;
-  text-align: left;
-  line-height: 20px;
-  word-wrap: break-word;
-  font-size: 16px;
-}
-
-#about ul li {
-  color: #777;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 2px 0;
-  text-align: left;
-}
-
-#about .two-column-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px; 
-  width: 100%;
-  max-width: 900px;
-}
-
-#about .two-column-container .column {
-  width: 48%;
-  padding: 10px;
-}
-
-/*---------------------------------------
    Footer section              
 -----------------------------------------*/
 footer {
@@ -462,38 +416,10 @@ footer .footer-copyright {
     font-size: 18px;
   }
 
-  #about .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-
   .image img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-  }
-
-  #about .col-md-8 {
-    padding: 0;
-    text-align: center;
-    width: 100%;
-  }
-
-  #about .section-title {
-    text-align: left;
-    width: 100%;
-  }
-
-  #about .two-column-container {
-    flex-direction: column;
-  }
-  
-  #about .two-column-container .column {
-    width: 100%; 
-    margin-bottom: 10px; 
   }
 
   footer {
