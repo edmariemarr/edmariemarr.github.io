@@ -342,10 +342,6 @@ footer {
     position: relative;
 }
 
-footer .col-md-3 .fa {
-  font-size: 42px;
-}
-
 footer a {
   color: #555;
 }
@@ -358,6 +354,7 @@ footer hr {
 
 footer .footer-copyright {
   padding-top: 16px;
+  text-align: center;
 }
 
 /*---------------------------------------
