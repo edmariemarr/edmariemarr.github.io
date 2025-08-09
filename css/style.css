@@ -23,6 +23,16 @@ body {
   transform: translateY(0);
 }
 
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
+}
+
 /*---------------------------------------
     Typography              
 -----------------------------------------*/
@@ -486,6 +496,11 @@ footer .footer-copyright {
     justify-content: center;
     gap: 20px;
   }
+
+  .image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 250px;
 
   #about .col-md-8 {
     padding: 0;
