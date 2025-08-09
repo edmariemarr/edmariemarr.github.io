@@ -138,14 +138,14 @@ a:hover, a:active, a:focus {
 }
 
 #about {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   text-align: left !important;
 }
 
 .section-title {
   position: relative;
-  padding-bottom: 62px;
+  padding-bottom: 25px;
   text-align: left;
 }
 
@@ -265,8 +265,8 @@ a:hover, a:active, a:focus {
      align-items: center;
     position: relative;
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #home hr {
@@ -285,7 +285,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .text-center {
-  padding-bottom: 42px;
+  padding-bottom: 25px;
   text-align: left;
   width: 100%;
   max-width: 800px;
@@ -455,7 +455,12 @@ footer .footer-copyright {
   }
 
   .navbar-default .navbar-collapse {
-    text-align: center;
+    display: none;
+  }
+
+  .navbar-default .navbar-collapse.show {
+    display: flex;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -514,7 +519,7 @@ footer .footer-copyright {
   }
 
   footer .col-md-4 {
-    padding-top: 35px;
+    padding-top: 25px;
   }
 
   .social-icon {
