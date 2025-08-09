@@ -383,7 +383,7 @@ footer .footer-copyright {
     box-sizing: border-box;
   }
 
-  .container {
+   .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,12 +455,7 @@ footer .footer-copyright {
   }
 
   .navbar-default .navbar-collapse {
-    display: none;
-  }
-
-  .navbar-default .navbar-collapse.show {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     align-items: center;
   }
 
@@ -519,7 +514,7 @@ footer .footer-copyright {
   }
 
   footer .col-md-4 {
-    padding-top: 25px;
+    padding-top: 15px;
   }
 
   .social-icon {
