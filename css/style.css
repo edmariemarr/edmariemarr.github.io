@@ -326,7 +326,7 @@ a:hover, a:active, a:focus {
 
 #about .two-column-container {
   display: flex;             
-  justify-content: center;
+  justify-content: absolute;
 }
 
 #about .two-column-container .column {
@@ -501,6 +501,7 @@ footer .footer-copyright {
     width: 150px;
     height: 150px;
     border-radius: 250px;
+  }
 
   #about .col-md-8 {
     padding: 0;
