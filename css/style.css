@@ -30,7 +30,7 @@ body {
 .image img {
     width: 150px;
     height: 150px;
-    border-radius: 250px;
+    border-radius: 50%;
 }
 
 /*---------------------------------------
@@ -500,7 +500,7 @@ footer .footer-copyright {
   .image img {
     width: 150px;
     height: 150px;
-    border-radius: 250px;
+    border-radius: 50%;
   }
 
   #about .col-md-8 {
