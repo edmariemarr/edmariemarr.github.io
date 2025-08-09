@@ -295,14 +295,6 @@ a:hover, a:active, a:focus {
   padding-right: 20px;   
 }
 
-#about .col-md-8.col-sm-12 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  display: block;  
-}
-
 #about p {
   text-align: left !important; 
 }
@@ -344,75 +336,6 @@ a:hover, a:active, a:focus {
 }
 
 /*---------------------------------------
-   Pagination section              
------------------------------------------*/
-.pagination {
-  display: flex;
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0 20px;
-  justify-content: space-between;
-}
-
-.pagination .previous {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-decoration: underline;
-  text-decoration-color: black;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-left: 400px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.pagination .previous .page-title {
-  margin-top: 5px;
-}
-
-.pagination .previous:hover {
-  text-decoration: none; 
-  color: black; 
-}
-
-.pagination .next {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-end;
-  text-decoration: underline; 
-  text-decoration-color: black; 
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-left: auto;
-  margin-right: 400px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.pagination .next .page-title {
-  margin-top: 5px;
-}
-
-.pagination .next:hover {
-  text-decoration: none; 
-  color: black; 
-}
-
-.pagination .page-title {
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 0em;
-}
-
-/*---------------------------------------
    Footer section              
 -----------------------------------------*/
 
@@ -443,7 +366,6 @@ footer .footer-copyright {
 /*---------------------------------------
    Social icon             
 -----------------------------------------*/
-
 .social-icon {
     position: relative;
     padding: 0;
@@ -587,15 +509,6 @@ footer .footer-copyright {
     width: 100%;
   }
 
-  #about .col-md-8 img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    margin-bottom: 20px;
-  }
-
   #about .section-title {
     text-align: left;
     width: 100%;
@@ -608,44 +521,6 @@ footer .footer-copyright {
   #about .two-column-container .column {
     width: 100%; 
     margin-bottom: 10px; 
-  }
-
-  .pagination {
-    flex-direction: row; 
-    align-items: flex-end; 
-    justify-content: space-between; 
-    padding: 0 20px;
-  }
-
-  .pagination .previous, 
-  .pagination .next {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .pagination .previous {
-    width: 80%; 
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .pagination .next {
-    width: 80%;  
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .pagination .previous:not(:empty) {
-    margin-right: auto;
-  }
-
-  .pagination .next:not(:empty) {
-    margin-left: auto;
-  }
-  
-  .pagination .page-title {
-    margin-top: 5px;
-    font-size: 24px;
   }
 
   footer {
